@@ -3,10 +3,10 @@
         "nid": "BlasphemousPresence",
         "name": "Blasphemous Presence",
         "desc": "Enemies within 3 spaces take 5 damage at the start of every turn.\nAdjacent allies gain +5 STR.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             7,
-            5
+            22
         ],
         "components": [
             [

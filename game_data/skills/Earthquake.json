@@ -3,10 +3,10 @@
         "nid": "Earthquake",
         "name": "Earthquake",
         "desc": "Damage and stun enemies within a radius of 3 tiles.\nMt: 8 Range:3-5 Sanity:8",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            10,
-            5
+            2,
+            6
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Glare",
         "name": "Glare",
         "desc": "Petrify an enemy, immobilizing them and boosting their defenses.\nRange: 1-2 Sanity:10",
-        "icon_nid": "Skills",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            5,
-            10
+            2,
+            80
         ],
         "components": [
             [

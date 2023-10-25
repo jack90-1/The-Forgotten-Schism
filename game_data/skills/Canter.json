@@ -3,10 +3,10 @@
         "nid": "Canter",
         "name": "Canter",
         "desc": "Unit can move up to 3 spaces after any action.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            4,
-            0
+            3,
+            23
         ],
         "components": [
             [

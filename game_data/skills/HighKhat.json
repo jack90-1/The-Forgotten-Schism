@@ -3,10 +3,10 @@
         "nid": "HighKhat",
         "name": "High (Khat)",
         "desc": "This unit is high on Khat.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            9,
-            12
+            4,
+            80
         ],
         "components": [
             [

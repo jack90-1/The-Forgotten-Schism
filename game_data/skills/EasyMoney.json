@@ -3,10 +3,10 @@
         "nid": "EasyMoney",
         "name": "Easy Money",
         "desc": "Automatically double when initiating combat if foe cannot counter attack.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            8,
-            15
+            2,
+            43
         ],
         "components": [
             [

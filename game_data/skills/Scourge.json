@@ -3,10 +3,10 @@
         "nid": "Scourge",
         "name": "Scourge",
         "desc": "Halves targets STR for 1 turn on hit.\nMt:7 Rng:1-2 Sanity:10",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            5,
-            3
+            1,
+            12
         ],
         "components": [
             [

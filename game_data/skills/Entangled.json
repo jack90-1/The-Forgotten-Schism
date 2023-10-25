@@ -3,10 +3,10 @@
         "nid": "Entangled",
         "name": "Entangled",
         "desc": "Unit is tangled in a net and cannot act.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            5,
-            12
+            0,
+            5
         ],
         "components": [
             [

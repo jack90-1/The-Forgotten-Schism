@@ -3,10 +3,10 @@
         "nid": "Berserk",
         "name": "Berserk",
         "desc": "Unit's mind has been taken over by a god that attacks indiscriminately.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            8,
-            4
+            0,
+            80
         ],
         "components": [
             [

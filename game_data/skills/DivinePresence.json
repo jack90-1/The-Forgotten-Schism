@@ -3,10 +3,10 @@
         "nid": "DivinePresence",
         "name": "Divine Presence",
         "desc": "Allies within 3 spaces get +10 BLS and healed for 5 HP every turn.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             6,
-            4
+            22
         ],
         "components": [
             [

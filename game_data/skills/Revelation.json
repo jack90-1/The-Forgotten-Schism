@@ -3,10 +3,10 @@
         "nid": "Revelation",
         "name": "Revelation",
         "desc": "Deal fire damage to all units except self within a 3 tile radius.\nMt: 15 Sanity: 5",
-        "icon_nid": "Skills",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            4,
-            2
+            0,
+            32
         ],
         "components": [
             [

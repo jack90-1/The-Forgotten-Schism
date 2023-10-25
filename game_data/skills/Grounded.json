@@ -3,10 +3,10 @@
         "nid": "Grounded",
         "name": "Grounded",
         "desc": "Unit takes effective damage from thunder attacks.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            7,
-            2
+            0,
+            76
         ],
         "components": [
             [

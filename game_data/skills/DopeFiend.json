@@ -3,10 +3,10 @@
         "nid": "DopeFiend",
         "name": "Dope Fiend",
         "desc": "Gain 20 HP when using a drug item.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             7,
-            14
+            11
         ],
         "components": [
             [

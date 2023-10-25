@@ -3,10 +3,10 @@
         "nid": "Shove",
         "name": "Shove",
         "desc": "Push target 1 tile away.",
-        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            2,
-            0
+            5,
+            31
         ],
         "components": [
             [
