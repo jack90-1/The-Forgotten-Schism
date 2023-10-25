@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Cursed",
+        "name": "Cursed",
+        "desc": "-20 HIT.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "hit",
+                -20
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "WilyVeteran",
+        "name": "Wily Veteran",
+        "desc": "+20 AVO when initiating combat. +4 STR for 1 turn after dodging an attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_take_miss",
+                "WilyVeteranChild"
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ]
+        ]
+    }
+]

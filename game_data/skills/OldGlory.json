@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "OldGlory",
+        "name": "Old Glory",
+        "desc": "Gain +2 STR/SPD/DEF after each kill.\nMax 5 stacks.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_kill",
+                "OldGlory_stack"
+            ]
+        ]
+    }
+]

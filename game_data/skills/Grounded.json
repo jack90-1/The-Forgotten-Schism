@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Grounded",
+        "name": "Grounded",
+        "desc": "Unit takes effective damage from thunder attacks.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Grounded"
+                ]
+            ],
+            [
+                "negate_tags",
+                [
+                    "Flying"
+                ]
+            ],
+            [
+                "movement_type",
+                "Light Foot"
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

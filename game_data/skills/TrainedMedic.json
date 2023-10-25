@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "TrainedMedic",
+        "name": "Trained Medic",
+        "desc": "This unit can use items that only medics can use.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            16
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Medic"
+                ]
+            ]
+        ]
+    }
+]

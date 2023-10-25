@@ -1,0 +1,51 @@
+[
+    {
+        "name": "SporoclesCharge",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.check_dead '113' and '114'",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Sporocles"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Sporocles"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sporocles",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sporocles",
+                    "Hmm...|They're stronger than expected.|I'll have to get my hands dirty."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sporocles"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Sporocles",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

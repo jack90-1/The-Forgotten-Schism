@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "BullRush",
+        "name": "Bull Rush",
+        "desc": "Pushes target 3 spaces.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "shove",
+                3
+            ]
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathCasimiro",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Casimiro'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Casimiro",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Casimiro",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Casimiro",
+                    "Tch...|All in the game..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Casimiro"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

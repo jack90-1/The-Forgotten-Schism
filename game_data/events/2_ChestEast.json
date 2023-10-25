@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ChestEast",
+        "trigger": "Chest",
+        "level_nid": "2",
+        "condition": "region.nid == 'ChestEast'",
+        "commands": [
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "ChestEast"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Blue Berries (Blueberries)"
+                ]
+            ],
+            [
+                "has_attacked",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

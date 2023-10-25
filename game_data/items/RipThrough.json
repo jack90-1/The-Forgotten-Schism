@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "RipThrough",
+        "name": "Rip Through",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "pivot",
+                1
+            ],
+            [
+                "pivot_target_restrict",
+                1
+            ],
+            [
+                "enemy_line_aoe",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

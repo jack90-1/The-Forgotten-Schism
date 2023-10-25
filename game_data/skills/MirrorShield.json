@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "MirrorShield",
+        "name": "Mirror Shield",
+        "desc": "Unit reflects negative statuses back onto attacker.",
+        "icon_nid": "items",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "reflect_status",
+                null
+            ]
+        ]
+    }
+]

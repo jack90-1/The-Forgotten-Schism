@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Hulk",
+        "name": "Hulk",
+        "desc": "Unit takes 0.75x damage from incoming attacks but their movement is halved.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "resist_multiplier",
+                0.75
+            ]
+        ]
+    }
+]

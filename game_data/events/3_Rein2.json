@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Rein2",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "any_unit_in_region('Rein2', team='player')",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "2,13"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Rein2",
+                    "Rein2",
+                    "fade",
+                    "giveup"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

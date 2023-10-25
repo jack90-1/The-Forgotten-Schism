@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "HighKhat",
+        "name": "High (Khat)",
+        "desc": "This unit is high on Khat.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            12
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        8
+                    ],
+                    [
+                        "SPD",
+                        8
+                    ]
+                ]
+            ]
+        ]
+    }
+]

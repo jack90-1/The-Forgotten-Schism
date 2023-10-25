@@ -1,0 +1,18 @@
+[
+    {
+        "name": "ScreenShake",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "screen_shake",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

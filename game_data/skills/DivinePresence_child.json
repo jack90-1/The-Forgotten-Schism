@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "DivinePresence_child",
+        "name": "DivinePresence child",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            4
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "upkeep_damage",
+                -5
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "BLS",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    }
+]

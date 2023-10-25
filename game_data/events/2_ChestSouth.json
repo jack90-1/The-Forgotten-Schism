@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ChestSouth",
+        "trigger": "Chest",
+        "level_nid": "2",
+        "condition": "region.nid == 'ChestSouth'",
+        "commands": [
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "ChestSouth"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Swordreaver (Swordreaver)"
+                ]
+            ],
+            [
+                "has_attacked",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

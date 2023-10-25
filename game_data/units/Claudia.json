@@ -1,0 +1,163 @@
+[
+    {
+        "nid": "Claudia",
+        "name": "Claudia",
+        "desc": "A gruff scholar who was expelled from the Academy of Sarenas.\nDoesn't seem to care that her powers are \"unnatural.\"",
+        "variant": "",
+        "level": 4,
+        "klass": "Blasphemer",
+        "tags": [
+            "AutoPromote"
+        ],
+        "bases": {
+            "HP": 23,
+            "STR": 6,
+            "ATN": 4,
+            "SKL": 9,
+            "SPD": 8,
+            "BLS": 4,
+            "DEF": 7,
+            "FRT": 9,
+            "CON": 9,
+            "MOV": 5,
+            "SAN": 22
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 30,
+            "ATN": 60,
+            "SKL": 35,
+            "SPD": 30,
+            "BLS": 15,
+            "DEF": 40,
+            "FRT": 50,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Fire",
+                false
+            ],
+            [
+                "Harria",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Nationality",
+                "Sarenas"
+            ],
+            [
+                "Height",
+                "5'8\""
+            ],
+            [
+                "Age",
+                "22"
+            ],
+            [
+                "Likes",
+                "Studying"
+            ],
+            [
+                "",
+                "Literature"
+            ],
+            [
+                "Dislikes",
+                "Conversation"
+            ],
+            [
+                "",
+                "Interruptions"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                31,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                31,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Pegasus Knight",
+        "affinity": "Strange",
+        "fields": []
+    }
+]

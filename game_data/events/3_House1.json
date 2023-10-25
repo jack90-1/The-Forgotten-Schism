@@ -1,0 +1,87 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'House1'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Inside House 4 Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man1",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man1",
+                    "You here for your payments?{w} Well, you're outta luck.{w}Your burly friend already took all our money.{w} You can have this dress if you want.|I don't need it anymore, now that my daughter left."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "{unit}",
+                    "{Man1}"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Pretty Dress (PrettyDress)"
+                ]
+            ],
+            [
+                "has_attacked",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

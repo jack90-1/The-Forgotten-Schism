@@ -1,0 +1,60 @@
+[
+    {
+        "name": "BattleOmarVernados",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "check_pair('Omar', 'Vernados')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Omar",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "You finally came to face me like a man.|You scared yet?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I'm not scared of you, Omar.|I'll deal with you like I dealt with the rest."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "Oh, those are some fightin' words!|Come on then, pup!{w} See if you can take down Omar."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Omar",
+                    "Vernados"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

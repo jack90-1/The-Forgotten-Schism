@@ -1,0 +1,42 @@
+[
+    {
+        "name": "DeathEdouard",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Edouard'",
+        "commands": [
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Edouard",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Edouard",
+                    "I mustn't fall...|The Majhul...|cannot..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Edouard"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

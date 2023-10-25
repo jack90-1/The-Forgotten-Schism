@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BattleAusar",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == 'Ausar' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Ausar')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Into the Castle- King of Dragons"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ausar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ausar",
+                    "I don't know what you guys are trying to accomplish, but Sporocles won't let it happen.|The commander is the most powerful shaman the world has ever seen.|You don't want to be on his bad side."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ausar"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

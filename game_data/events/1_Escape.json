@@ -1,0 +1,442 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "1",
+        "condition": "region.nid == 'EscapeNorth' or region.nid == 'EscapeSouth'",
+        "commands": [
+            [
+                "remove_unit",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.nid == 'Vernados'"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Come on, everybody,they're overruning the place!|We've gotta get outta here!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Merriment- Triangle Strategy"
+                ]
+            ],
+            [
+                "victory_screen",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Mountainside 2 Day"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Off to War- FE12"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Vernados",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Come on, everyone, keep moving!|We've gotta get out before they overrun the place!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Vernados",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Don",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "We're right behind you, Vern!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Don",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Mountain Pass 2 Evening"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Vernados",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Hah...{w} Hah...|This has gotta be far enough...|{c:expression;Vernados;OpenEyes}Did everyone make it?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "I think so...|Marcela and Segundo are taking a breather behind us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "What about Maria?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Maria",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Right here, Vernados.|Marlin's lurking around somewhere, too."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Oh, right."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Can't believe I forgot about Marlin.",
+                    "",
+                    "",
+                    "thought_bubble"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Ok, now that we know everyone's safe,|can we talk about whatever the hell that glowy thing Vern did was?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I have no idea...|Instead of nodding off from the seeds like I usually would,{w} I heard someone talking to me in my head."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "You were hearing voices?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "No, it wasn't like that.{w} I'm not crazy.|But something was telling me I needed to kill, and that it was going to give me it's power."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "And you're sure it wasn't just a bad trip?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Maria, you didn't see it.|Vern was glowing!{w} And he was tearing through those Feds like they were nothing!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Those weren't Feds, Don.{w} Remember?{w} The weird uniforms?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Oh, right.|But who were they, then?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "They could be Delnatians."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "What?{w} What would those leaf eaters want with us?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "I don't know,|but last time I was in town I heard rumors of some sort of trade disagreement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Feds are Feds, simple as.|Doesn't matter what they want if they're trying to kill us!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You're right, Don.{w} There's no use worrying about it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Yet.{w} An invasion could be very bad for us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "We'll think about that when it comes to it.|The more pressing issue is what the hell we're supposed to do now.|Those mystery Feds are probably burning down our home right now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "We could head in to town, maybe?|Stay at an inn?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "With what money?|And you know the governor wouldn't take kindly to our entire crew showing up, no matter how much we pay him off."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Oh..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "I say we head to Luis's place.{w} Tell him about all this."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "But Luis is just as bad as the boss!|Gonzo even said that someone told him Luis and the boss were a thing..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Do you have any better ideas?|Anyone else willing to take in a crew of homeless bandits?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "...{c:wait 700}|I guess not.|Me and Don'll go scout ahead, then.|Make sure we don't run into any more Feds."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Sounds good to me!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "The boy heard a voice talk to him, and then gained mysterious powers...|Gods above, please just let me rest...|I've had enough for one lifetime, haven't I?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Maria"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

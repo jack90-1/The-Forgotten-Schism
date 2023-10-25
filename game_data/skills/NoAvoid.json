@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "NoAvoid",
+        "name": "NoAvoid",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                1000
+            ],
+            [
+                "attack_speed",
+                999
+            ],
+            [
+                "defense_speed",
+                999
+            ],
+            [
+                "modify_ai_priority",
+                2.0
+            ]
+        ]
+    }
+]

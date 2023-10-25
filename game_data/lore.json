@@ -1,0 +1,107 @@
+[
+    {
+        "nid": "Sarenas",
+        "name": "Sarenas",
+        "title": "Sarenas",
+        "category": "Nation",
+        "text": "A small kingdom on the southern shores of Lake Chalcis. Known for its fertile soil and rich nobility, it seems like the idyllic kingdom. However, poverty and crime infest the southern mountains while the northern nobility turns a blind eye."
+    },
+    {
+        "nid": "Kohl",
+        "name": "Kohl",
+        "title": "Kohl",
+        "category": "Nation",
+        "text": "A northern tributary state of Malux. Frigid and mountainous, it seems like a place inhopsitable to life. However, it is home to thriving culture of warriors. It is often looked down upon by the more \"cultured\" kingdoms of the south."
+    },
+    {
+        "nid": "Malux",
+        "name": "Malux",
+        "title": "Malux",
+        "category": "Nation",
+        "text": "The holy kingdom said to be founded by St. Jeanne herself. A historic military power, it is the suzerain of Kohl and Ngalabachi. It's knightly orders are revered throughout the world."
+    },
+    {
+        "nid": "Delnatia",
+        "name": "Delnatia",
+        "title": "Delnatia",
+        "category": "Nation",
+        "text": "A large kingdom on the western shores of Lake Chalcis. A great military power, it has conquered everything west of Chalcis. It has stood at odds against the rest of the world for centuries over matters of trade and religion."
+    },
+    {
+        "nid": "Ngalabachi",
+        "name": "Ngalabachi",
+        "title": "Ngalabachi",
+        "category": "Nation",
+        "text": "An archipelago off the southern coast of Malux. Although it is under Malusian control, it's people still have a rich and unique culture. Many of the worlds greatest healers are trained here."
+    },
+    {
+        "nid": "Arrekah",
+        "name": "Arrekah",
+        "title": "Arrekah",
+        "category": "Nation",
+        "text": "A kingdom in the eastern deserts of Delnatia. It has been under Delnatian control for centuries, but it's people still burn with a desire for independence. Every rebellion has failed due to the desert kingdom's reliance on outside goods."
+    },
+    {
+        "nid": "Vernados",
+        "name": "Vernados",
+        "title": "Vernados",
+        "category": "Character",
+        "text": "A young man who was recently promoted to captain in Boukris's gang. He had a turbulent childhood, with his best friend Don being the only constant in his life. Although he one day aspires to be the boss, he is content with his position as captain as long as it can provide for him and his friends."
+    },
+    {
+        "nid": "Don",
+        "name": "Don",
+        "title": "Don",
+        "category": "Character",
+        "text": "Vernados' best friend. Hailing from the same hometown as the captain, he was never known for his intellect. What he lacks in smarts, though, he makes up for with strength. \nA known animal-lover, he bravely rides his horse into battle, even though he hardly knows how to ride it."
+    },
+    {
+        "nid": "Maria",
+        "name": "Maria",
+        "title": "Maria",
+        "category": "Character",
+        "text": "Aloof and rude, Maria doesn't seem like the medic type. However, under her rough persona, she hides an extensive education and genuine compassion for the misfortunate."
+    },
+    {
+        "nid": "Marcela",
+        "name": "Marcela",
+        "title": "Marcela",
+        "category": "Character",
+        "text": "The perfect embodiment of a typical bandit. She spends her free time brawling, drinking, and telling unbelievable tales of her time as an orphan on the streets of Azorina."
+    },
+    {
+        "nid": "Marlin",
+        "name": "Marlin",
+        "title": "Marlin",
+        "category": "Character",
+        "text": "The pirate who supposedly was once feared across Chalcis has now become a singer for Vernados' crew. He might like to drink a little TOO much."
+    },
+    {
+        "nid": "Segundo",
+        "name": "Segundo",
+        "title": "Segundo",
+        "category": "Character",
+        "text": "A misfortunate youth from inland Sarenas. Vernados somehow saw potential in him and gave him a job. He never seems very happy about it."
+    },
+    {
+        "nid": "Raquel",
+        "name": "Raquel",
+        "title": "Raquel",
+        "category": "Character",
+        "text": "It's hard to find someone with Raquel's work ethic, especially in a crew of bandits. No one knows how a capable spy like her ended up in the dregs of society, but they're happy to let her keep her secrets."
+    },
+    {
+        "nid": "Lupe",
+        "name": "Lupe",
+        "title": "Lupe",
+        "category": "Character",
+        "text": "A common fisherwoman forced to turn to crime, a common sight in southern Sarenas. She has a bit of a loud mouth, but her intentions don't seem to be malicious."
+    },
+    {
+        "nid": "Claudia",
+        "name": "Claudia",
+        "title": "Claudia",
+        "category": "Character",
+        "text": "Curiosity is a celebrated trait in scholars, unless it goes too far. Claudia has a different definition of what \"too far\" means. Her blasphemous studies didn't go over well with her schoolmasters."
+    }
+]

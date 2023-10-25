@@ -1,0 +1,227 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "4P",
+        "condition": "True",
+        "commands": [
+            [
+                "chapter_title",
+                [
+                    "_Wind Ambience 1"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hum of the Streets- FMAB"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "vern",
+                    "south",
+                    "starting",
+                    "normal"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Lakeside Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Finally, we made it...|I never want to trudge through those mountains in the dead of night again..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Don't be so gloomy, kid.{w} I'm sure that hike put some muscle on you!|You sure do need it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Ha ha, very funny.|Now that we're here, though, it's time to get down to business, right?|There's gotta be a lot I need to learn if I'm gonna run this whole gang."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "You guys have fun with that!|I'm gonna find the boss's biggest bed and sleep the day away."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You're a capo now, you know.|There's a lot more work in your future.{w} Trust me,the job's not easy."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "I'll worry about it when I have to worry about it."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You should've beat some sense into him when we were younger, Gonzo.|He could use some."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Eh, not my style.{w} Come on, now.{w} There's a lot I gotta teach you."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Gonzalo",
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "300"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Gonzalo (Gonzalo)",
+                    "15,2"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Vernados",
+                    "15,2"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "skip_save",
+                [
+                    "t"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

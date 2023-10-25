@@ -1,0 +1,174 @@
+[
+    {
+        "name": "MarArrive",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "Mar",
+                    "north",
+                    "Mar"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Maria"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Maria",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Marlin",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Come on, Marlin.{w} Let's get you to bed.|You know you shouldn't be drinking like that at your age."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marlin",
+                    "*burrp*{w} Ahhh, shut *hic*{c:bop_portrait;Marlin}{w} up, wench...|Marlin the marauder drinks however much *hic*{c:bop_portrait;Marlin}{w} he pleases!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Maybe I should just let you drink yourself to death..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Maria",
+                    "Marlin"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Door"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Maria",
+                    "12,3"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Marlin",
+                    "13,3"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Maria",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Marlin",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "What the hell is going on out here!?|Who are all these people!?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marlin",
+                    "Smells like battle!|These invaders will learn to fear Marlin the *hic*{c:bop_portrait;Marlin}{w} marhsal!"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Marlin"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Marlin",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Marlin"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Gods, there's never a dull moment..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Maria"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Maria",
+                    "Vernados"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Maria"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

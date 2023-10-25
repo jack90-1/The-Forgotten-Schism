@@ -1,0 +1,171 @@
+Anything not credited was created by me or IS
+Please let me know if anything is missing or wrong!!
+This includes credits for content that is not available ingame yet, so a lot of these portraits, animations, etc haven't been seen yet
+
+LT Engine:
+Rainlash
+Mag
+KD
+Assorted contributors
+
+Portraits:
+Edouard- JiroPaiPai
+Faisal- Laurent Lacroix
+Adannaya- RandomWizard
+Yael- Epicer
+Delphine- Lenh
+Sporocles- NickT 
+Tiberia- Amema003
+Ausar- MeatOfJustice, BuskHusker
+Vernados- ZessDynamite
+Don- Retouch by Atey
+Marcela- CapibaraInSpace
+Segundo- Toa
+Marlin- RandomWizard
+Eudexia- It's_Just_Jay
+Raquel- DerTheVaporeon
+Lupe- JiroPaiPai
+Claudia- Epicer
+Luis- SireNicee
+Toro- Laurent Lacroix
+Boukris- Toa
+Ralph- XVI
+Gonzalo- Beccarte
+Tyche- GabrielKnight
+Carlos- Levin64
+Esmeralda- Parts from Warpath
+Fury- Toa
+Verana- ZessDynamite
+Alerie- It's_Just_Jay
+Zephyra- Levin64
+Eris- Parts from LaurentLacroix
+Amelia- Parts from Zelkami
+Zimuzo- Parts from Zelkami
+Omar- Parts from ZessDynamite and Zelkami
+Facundo- Parts from Yasuko
+Penelope- Help with tat from Vilk
+Ngozi- Parts from ZessDynamite, Zelkami, and Laurent Lacroix
+Savino- Parts from Garytop
+Amadi- Parts from ZessDynamite
+Amal- Ghostblade913
+Aurelia- Parts from AmBrosiac and Yasako
+Alerie- Parts from Garytop
+Ionidas- Parts from LaurentLacroix, Melia, Garytop, and RandomWizard
+
+Combat Animations:
+Assassin M: Andy, SD9K
+Assassin F: SHYUTERz
+Ballistician: Pushwall
+Kingpin M: TheBlindArcher, Maiser6, TBA, ZoramineFae
+Kingpin F: Pikmin, Maiser6, ZoramineFae
+Axe Knight: SALVAGED
+Lance Knight: SALVAGED
+Free Knight: SALVAGED
+Cavalier: SALVAGED
+Deserter: Alusq, Epicer
+Halberdier: TBA
+Praetor: Pikmin, Nuramon, Vilk
+Champion: Spud, Leolink, Iscaneous, Nuramon, Dora Drago
+Vigilante: Cipher Lee, DerrTheVaporeon, Nuramon, Sax Marine
+Fighter: MK404, Glenwing
+Master Knight: St Jack, Mycahel
+Hero- Nuramon
+Brawler- Neph
+Phalanx Knight- Nuramon
+Siege Knight- Nuramon
+Blasphemer- Hypergammaspaces, Teraspark, Obsidian_Daddy, Devisian_Nights, Raulster
+Mercenary: SALVAGED
+Pugilist: TytheBub
+Medic: JonoTheRed
+Ascetic- Teraspark
+Gold Knight- Nuramon
+Great Knight- SALVAGED
+Pegasus Knight- Flasuban
+Raider: Pimpstick, Maiser6
+Capo: DerTheVaporeon
+Forrest Knight: Leo_Link
+Apostle: Hypergammaspaces, Jono
+Sniper: Nuramon
+Gladiator: Nuramon
+Soldier: Flasuban
+Dread Fighter: Nuramon
+Thief: Pikmin
+Arcanist: Jey The Count
+Warrior M: Pushwall
+Warrior F:Temp
+
+Map Sprites:
+Axe Knight- SALVAGED
+Ascetic- Teraspark
+Soldier- Flasuban
+Thug- Rasdel
+Free Knight- SALVAGED
+Deserter- Alusq, Epicer
+Halberdier- TBA
+Phalanx Knight- Unknown
+Siege Knight- Unknown
+Squire- Dominus_Vobiscum, Snewping
+Master Knight- Unknown
+Blasphemer- Leif
+Thief- Rasdel
+Kingpin- ZoramineFae
+Singer- MeatOfJustice
+Apostle- FE7if
+Pegasus Knight- Flasuban
+Vigilante- Flasuban
+Ballistician- Pushwall
+Great Knight- Pikmin, L95, Der
+Gold Knight- Hypergammaspaces
+Praetor- Der
+Scholar- Smug_Mug, Unknown
+Farigh- Leif, MeatOfJustice
+Brawler- ShadowAllyX
+Medic- N426
+Forrest Knight- Leo_Link
+Champion- Spud, Dora Drago
+Hero F- Nuramon
+Warrior F- FEGirls
+Gladiator- Nuramon
+Dread Fighter- Nuramon
+Raider- Rasdel
+
+Class Cards:
+Ballistician: Aruka, Yggdra
+Axe Knight: Blademaster
+Dread Fighter: Nuramon
+Aristocrat: ZoramineFae
+Singer: MeatOfJustice
+Halberdier: TBA
+Blasphemer:L95
+Apostle: L95
+Deserter: Rasdel, Epicer
+Ascetic:RobertFPY
+Gladiator: Nuramon
+Free Knight: Pushwall
+Forrest Knight: Shtick, SALVAGED
+Champion: Spud, Rasdel, Pushwall
+Scholar: RobertFPY
+Praetor: Der
+Squire: Maiser6
+Medic: N246
+Thief: ZoramineFae
+Thug: Rasdel
+
+Item and Skill Icons:
+LordGlenn
+EldritchA, Indogutsu Tenbuki
+GabrielKnight
+Leif
+Beansy
+J-Treecko
+Cardcafe
+Celice
+Ryan914
+AtelierLabs
+ZessDynamite
+
+Tilesets:
+Revamped Fields: ZoramineFae
+Frontier: Flasuban, WAve, ZoramineFae
+Village v2: Flasuban, N426, ZoramineFae, Venno
+

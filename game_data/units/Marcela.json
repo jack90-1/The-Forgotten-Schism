@@ -1,0 +1,168 @@
+[
+    {
+        "nid": "Marcela",
+        "name": "Marcela",
+        "desc": "A rowdy bandit who loves a good scrap.\nTends to act before she thinks.",
+        "variant": null,
+        "level": 1,
+        "klass": "Raider",
+        "tags": [
+            "AutoPromote"
+        ],
+        "bases": {
+            "HP": 22,
+            "STR": 8,
+            "SKL": 9,
+            "SPD": 5,
+            "DEF": 5,
+            "CON": 10,
+            "MOV": 5,
+            "ATN": 0,
+            "FRT": 2,
+            "BLS": 7,
+            "SAN": 30
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 45,
+            "SKL": 40,
+            "SPD": 30,
+            "DEF": 30,
+            "CON": 0,
+            "MOV": 1,
+            "ATN": 0,
+            "FRT": 10,
+            "BLS": 50,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Azure Cutlass",
+                false
+            ],
+            [
+                "Iron Blade",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "EasyMoney"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Nationality",
+                "Chalcis"
+            ],
+            [
+                "Height",
+                "5'3\""
+            ],
+            [
+                "Age",
+                "19"
+            ],
+            [
+                "Likes",
+                "Brawling"
+            ],
+            [
+                "",
+                "Boasting"
+            ],
+            [
+                "DIslikes",
+                "Cowards"
+            ],
+            [
+                "",
+                "Thinking"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Marcela",
+        "affinity": "Mundane",
+        "fields": []
+    }
+]

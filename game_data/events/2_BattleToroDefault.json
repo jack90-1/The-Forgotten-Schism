@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BattleToroDefault",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_default('Toro', ['Lupe'])",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Toro",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "Hahaha!{w} Die!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Toro"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

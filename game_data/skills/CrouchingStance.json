@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CrouchingStance",
+        "name": "Crouching Stance",
+        "desc": "Enter to gain 10 DEF but lose 10 SPD for 1 turn.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "CrouchingStance_child"
+            ]
+        ]
+    }
+]

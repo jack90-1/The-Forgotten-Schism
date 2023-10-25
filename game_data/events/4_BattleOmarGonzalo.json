@@ -1,0 +1,60 @@
+[
+    {
+        "name": "BattleOmarGonzalo",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "check_pair('Omar', 'Gonzalo')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Omar",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "I always knew you were a snake."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "You're one to talk, Gonzo.|Your boy just dropped the boss so he could take over himself.|You think there's nothing wrong with that?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Shut up about honor, you bastard!|Are you not doing the exact same things as Vernados did?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "Hmm, I guess your right.|Doesn't matter though.{w} The game is the game.|Now quit whining and pick up your axe!{w} I'm getting tired!"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

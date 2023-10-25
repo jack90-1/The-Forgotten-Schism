@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SoldiersHelm",
+        "name": "Soldier's Helm",
+        "desc": "+4 DEF/FRT when adjacent to an ally.",
+        "icon_nid": "items",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        4
+                    ],
+                    [
+                        "FRT",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "len(get_allies_within_distance(unit, 1)) >= 2"
+            ]
+        ]
+    }
+]

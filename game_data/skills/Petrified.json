@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Petrified",
+        "name": "Petrified",
+        "desc": "Unit has turned to stone. They cannot move or dodge attacks, but their defenses are greatly increased.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            6
+        ],
+        "components": [
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "FRT",
+                        15
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    65,
+                    65,
+                    65
+                ]
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "name": "LupeArrive",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "Lupe",
+                    "west",
+                    "Lupe",
+                    "normal"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Lupe"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Lupe"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lupe",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Claudia",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "This way to the exit, girl.|Stay by me, it might get a little rough out there."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Why exactly are you helping me, again?|You were content to guard me in those dungeons for the past two weeks.|What changed?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Do you hear those noises out there?|Metal clanging and men screaming?|That's the sound of Luis getting his ass handed to him.|I'm not going down with that slime,{w} and I'm not going to let a little girl like you go with him either."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "I'm 22 years old, I'll let you know.|I was entirely capable of getting out of there myself, without your help."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Sure, you just sat in that cell for two weeks for fun.|You can either come with me and join this new crew killing Luis,{w} or you can brave the wilderness by yourself.|Your choice, girl."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "I suppose I'll go with you.|I would feel bad if I left you to die here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Great.|Remember, you owe me for this."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lupe"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Curse that foul woman...|I'm sure she would've left me if she didn't think she could extort me."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Claudia"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Lupe",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Claudia",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Lupe",
+                    "Vernados"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

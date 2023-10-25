@@ -1,0 +1,138 @@
+[
+    {
+        "nid": "Ascetic",
+        "name": "Ascetic",
+        "desc": "Clergymen and women who harness the power of their goddess. They claim to not be shamans.",
+        "tier": 1,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [
+            "Bishop"
+        ],
+        "tags": [
+            "Mage"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 19,
+            "STR": 0,
+            "ATN": 4,
+            "SKL": 5,
+            "SPD": 7,
+            "BLS": 8,
+            "DEF": 2,
+            "FRT": 7,
+            "CON": 5,
+            "MOV": 5,
+            "SAN": 20
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 0,
+            "ATN": 40,
+            "SKL": 45,
+            "SPD": 45,
+            "BLS": 60,
+            "DEF": 10,
+            "FRT": 50,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "BLS": 0,
+            "DEF": 0,
+            "FRT": 0,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "BLS": 0,
+            "DEF": 0,
+            "FRT": 0,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "ATN": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "BLS": 30,
+            "DEF": 30,
+            "FRT": 30,
+            "CON": 25,
+            "MOV": 15,
+            "SAN": 40
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                true,
+                31,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Monk (F) Magic {RobertFPY}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Monk (F) {Teraspark}-stand",
+        "combat_anim_nid": null,
+        "fields": []
+    }
+]

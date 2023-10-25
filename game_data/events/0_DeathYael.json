@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DeathYael",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Yael'",
+        "commands": [
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yael",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yael",
+                    "I must retreat, Edouard."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Yael"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "nid": "Savant",
+        "name": "Savant",
+        "desc": "Mages gifted with visions of the future.",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": "Scholar",
+        "turns_into": [],
+        "tags": [
+            "Mage"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 25,
+            "STR": 0,
+            "SKL": 5,
+            "SPD": 4,
+            "DEF": 9,
+            "CON": 7,
+            "MOV": 6,
+            "ATN": 10,
+            "FRT": 9,
+            "BLS": 2,
+            "SAN": 20
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 0,
+            "SKL": 25,
+            "SPD": 22,
+            "DEF": 8,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 35,
+            "FRT": 50,
+            "BLS": 40,
+            "SAN": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 0,
+            "SKL": 1,
+            "SPD": 1,
+            "DEF": 4,
+            "CON": 4,
+            "MOV": 1,
+            "ATN": 3,
+            "FRT": 4,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 20,
+            "SKL": 26,
+            "SPD": 26,
+            "DEF": 22,
+            "CON": 20,
+            "MOV": 15,
+            "ATN": 25,
+            "FRT": 30,
+            "BLS": 30,
+            "SAN": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Slayer"
+            ],
+            [
+                1,
+                "Shove"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                true,
+                16,
+                251
+            ],
+            "Default": [
+                false,
+                1,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                1,
+                251
+            ],
+            "Holy": [
+                true,
+                16,
+                251
+            ],
+            "Anima": [
+                true,
+                16,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                16,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Druid (M) Magic {IS}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Necromancer",
+        "combat_anim_nid": "Arcanist",
+        "fields": []
+    }
+]

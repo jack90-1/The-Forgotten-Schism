@@ -1,0 +1,208 @@
+[
+    {
+        "name": "VernadosBoukrisTalk",
+        "trigger": "on_talk",
+        "level_nid": "5Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Boukris'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "MidRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ralph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Melaina",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Vernados.{w} You're just in time.|Melaina is giving us the rundown on what happened at the border."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Oh, is everything ok?|You guys didn't run into the Delnatian army, did you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Melaina",
+                    "We did.{w} We were there when they crossed the border.|They ran us right over like we were nothing.|Their general killed Palmero herself.|I was the only one to make it out alive."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Goddess...{w} Palmero's dead, then?|If they could kill him, how the hell was my crew able to escape?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Hold on.|Did you just say your crew was attacked by the Delnatian army?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Well, I don't think it was their main army.{w} Just some scouts.|But yeah, we ran into them on the way back from Recoletos."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "So they've made it the far already...|Vernados, I have another job for you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Already?{w} Shouldn't we be laying low with all the soldiers roaming around?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "The kid's right on this one, boss.|One wrong step and we could have an entire army on us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "This isn't a wrong step.|It's time to make a bold strike, now that the army is occupied.|The two countries should be too busy fighting each other to notice us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Melaina",
+                    "That is true...|They only got us because we were in the way of their march."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "There's a royal armory a little to the north of here, at the end of the foothills.|If my judgement is correct, it should be loosely guarded.|Vernados, I want you to raid the armory for as much gold and weapons you can get.|I'll send Ralph to support you, too."
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Ralph",
+                    "player"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Ralph",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Hold on, you're sending me with the kid?!|You know my crew isn't the best at head on fighting."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "With Melaina's crew wiped out, it's my only choice.|I think you should be able to handle yourself fine."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "I'll show YOU handling myself..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "This sounds like a tough job, boss...|But my crew won't let you down.|I'll go get started on preparations."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Are you sure this is the right move, boss?|I'm not sure if raiding a royal armory is the safest thing..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Of course it isn't safe, Ralph.|To get the biggest reward, you have to take the biggest risk.|Surely you've learned that in all your years here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "I won't argue with you, boss.|Guess I should go rile up my crew, wherever the hell they are."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boukris",
+                    "Melaina",
+                    "Ralph"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Boukris"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

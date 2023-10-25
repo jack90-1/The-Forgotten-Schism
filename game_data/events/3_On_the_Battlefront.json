@@ -1,0 +1,280 @@
+[
+    {
+        "name": "On the Battlefront",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit == 'On the Battlefront'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Army Camp Day"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Battle Scherzo- FMAB"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gallardo",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Carlos",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Carlos",
+                    "I need a report, general Gallardo!|What's the position of the invaders?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "You asked me the same thing two hours ago, senator.|I'd imagine their position is still realtively the same.|I've never heard of an army that could march two hundred miles in two hours!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Carlos",
+                    "Don't get smart with me, general.{w} Know your rank.|It would be a shame if Sarenas' greatest general were discharged."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "My apologies, senator.{w} Still, I advise you to relax.|It would improve morale if the men saw you calm and in control,{w} instead of the pacing and yelling you've been doing."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Carlos",
+                    "I'm inspiring the men, general!{w} No one's ever won a war by standing around, waiting for the enemy to come to them!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "Wait, what are you suggesting, senator?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Carlos",
+                    "A grand offensive, something that hasn't been seen in centuries!|If the Delnatians dare to keep encroaching on our land,{w} we'll show them the strength of a true Sarena warrior!|Could you imagine it, general?|Our entire army, 50,000 strong, marching against one foe?|The bards would sing of it for ages!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "I am but your humble soldier, senator, but I must advise against this!|Marching against the Delnatians while they're entrenched in the mountains would be suicide!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Carlos",
+                    "Whose mountains are they entrenched in, Gallardo?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "They are in Sarenas territory, senator."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Carlos",
+                    "That should answer your doubts, general.|Now go and prepare the men.{w} I have other duties to attend to."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Carlos"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "This is madness...|The mountains will be a meat grinder...|And they likely outnumber us, too...",
+                    "",
+                    "",
+                    "thought_bubble"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Esmeralda",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "What was that all about, uncle?|Senator Carlos looks like he's in a rare mood today."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "The senator has commanded an all out offensive against the Delnatians."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "Oh,{w} I see.|Feels good to finally have some real orders, huh?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "Yes...{w} I suppose it does."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "Is everything okay, uncle?|You've got a weird look on your face."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "It is nothing.|Listen, Esmeralda.{w} I have an important mission for you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "For me?{w} Seriously?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "Yes, you are almost a woman grown.|It's time for you to prove yourself.|Take a handful of your best men, and fly north,{w} up to the plains."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "You're sending me away from the battle?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "No, I'm leaving you to prepare for the next one."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "Oh, I see.{w} You want me to watch your flank."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "Exactly, young one.{w} Your tactics teachers have taught you well."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "Thanks, uncle.|I'll go prepare my soldiers, and then I'll be off."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "Good luck, Esmeralda.|May the Goddess smile upon you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esmeralda",
+                    "You too, uncle."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Esmeralda"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gallardo",
+                    "I'm sorry, young one.|I wish you weren't the only one I could save..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Gallardo"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

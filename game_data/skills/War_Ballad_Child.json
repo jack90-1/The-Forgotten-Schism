@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "War_Ballad_Child",
+        "name": "Emboldened",
+        "desc": "Unit cannot miss or avoid attacks for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            5
+        ],
+        "components": [
+            [
+                "hit",
+                999
+            ],
+            [
+                "avoid",
+                -999
+            ]
+        ]
+    }
+]

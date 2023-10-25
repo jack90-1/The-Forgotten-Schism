@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "ArmsmasterSword",
+        "name": "Armsmaster",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            7
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "FRT",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

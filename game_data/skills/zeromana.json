@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "zeromana",
+        "name": "zeromana",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "event_after_combat",
+                "Global ZeroMana"
+            ],
+            [
+                "condition",
+                "unit.get_mana() == 0"
+            ]
+        ]
+    }
+]

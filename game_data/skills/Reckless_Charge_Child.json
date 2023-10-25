@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Reckless_Charge_Child",
+        "name": "Reckless Charge",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        -4
+                    ],
+                    [
+                        "RES",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "attack_pre_proc",
+                "Reckless_Charge_Child"
+            ]
+        ]
+    }
+]

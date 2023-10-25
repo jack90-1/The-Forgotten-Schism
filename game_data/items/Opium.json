@@ -1,0 +1,56 @@
+[
+    {
+        "nid": "Opium",
+        "name": "Opium",
+        "desc": "Use on an ally to regain their sanity at the cost of reducing stats.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "HighOpium"
+            ],
+            [
+                "event_on_hit",
+                "Global +10 Sanity"
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit2.klass != 'Crate75'"
+            ]
+        ]
+    }
+]

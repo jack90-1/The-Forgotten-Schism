@@ -1,0 +1,198 @@
+[
+    {
+        "name": "Rendezvous",
+        "trigger": "on_base_convo",
+        "level_nid": "2",
+        "condition": "unit == 'Rendezvous'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Tavern 1"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "_nighttime ambience"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Vernados",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "There's probably nothing left of home by now...|Damn foreigners can't just leave us in peace.|They've probably destroyed the rest of the south, too..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Raquel",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Raquel",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Vernados",
+                    "OpenEyes"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Who's there!|You don't wanna mess with me!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "It's just me, captain."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Raquel!?|What are you doing here?|I haven't seen you in months!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "I've been taking care of some business.|I was on my way back home when the Feds got me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I suppose that was just a minor inconvenience for you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "Yes.{w} It was no trouble.{w} And I didn't tell them anything."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I never assumed you did."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "Now that I've tied up my loose ends, I'm going to stick around with you.|I don't trust Luis."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Ah, he's harmless.|I know it's your job, but you worry too much.|Why don't you go get some rest?{w} I can tell you're tired."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "At once, captain."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Raquel"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Strange woman.|She's more disciplined than any Fed I've ever seen..."
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Raquel",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "add_lore",
+                [
+                    "Raquel"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

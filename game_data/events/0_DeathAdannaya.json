@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DeathAdannaya",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Adannaya'",
+        "commands": [
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Adannaya",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adannaya",
+                    "Heh, I messed up.|See ya later, Eddy.{w} I can't stick around with these wounds."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Adannaya"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

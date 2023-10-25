@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BattleSporoclesDefault",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Sporocles', ['Edouard'])",
+        "commands": [
+            [
+                "music",
+                [
+                    "Into the Castle- King of Dragons"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sporocles",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sporocles",
+                    "There is no place for cowardice in the new Majhul.|If you wish to impede our efforts, I will not hesitate to strike you down.|I hate to hurt my comrades, but it must be this way if we are to save our world."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sporocles"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

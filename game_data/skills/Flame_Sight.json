@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Flame Sight",
+        "name": "Flame Sight",
+        "desc": "+3 DMG and +20 HIT when using fire magic.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "combat_condition",
+                "'Fire Magic' in item.tags"
+            ]
+        ]
+    }
+]

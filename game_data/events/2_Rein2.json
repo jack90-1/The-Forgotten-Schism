@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Rein2",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 7",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "7,0"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "120",
+                    "7,0",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "121",
+                    "8,0",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "1,17"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "122",
+                    "1,17",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "123",
+                    "6,17",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

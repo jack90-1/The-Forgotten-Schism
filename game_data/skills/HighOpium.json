@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "HighOpium",
+        "name": "High (Opium)",
+        "desc": "This unit is high on opium.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            12
+        ],
+        "components": [
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "ATN",
+                        1
+                    ],
+                    [
+                        "SKL",
+                        1
+                    ],
+                    [
+                        "SPD",
+                        1
+                    ],
+                    [
+                        "DEF",
+                        1
+                    ],
+                    [
+                        "FRT",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "time",
+                3
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -3
+                    ],
+                    [
+                        "ATN",
+                        -3
+                    ],
+                    [
+                        "SKL",
+                        -3
+                    ],
+                    [
+                        "SPD",
+                        -3
+                    ],
+                    [
+                        "DEF",
+                        -3
+                    ],
+                    [
+                        "FRT",
+                        -3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

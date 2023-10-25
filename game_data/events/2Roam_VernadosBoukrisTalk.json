@@ -1,0 +1,239 @@
+[
+    {
+        "name": "VernadosBoukrisTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit1.nid == 'Vernados' and unit2.nid == 'Boukris'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Boukris",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "It's been eight years already, my love...|You just have to wait a little longer...|Everything is coming together now...|You will be avenged, I swear it."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Boukris"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Boukris",
+                    "OpenEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Boss."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Oh, Vernados.{w} I've been waiting for you.|How did things go up in Frias?|No trouble, I assume?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Nope.{w} Eveything went smoothly.|I've got your cut here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "This bag seems a little light."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "The old man was going through some rough times, I guess.|We took all the valuables from his house to make up for it.|Marcela put them in the vault last night."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Good.{w} I can always rely on you to figure things out."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Thanks, boss."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "That's why I have another job for you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Another job?{w} Already?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Why are you surprised?{w} You're one of my best men.|Anyways, apparently some wannabe from Kohl discovered some ancient treasure down in the foothills.|I want you to go teach him whose turf he's on."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Got it, boss."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Raquel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I'm sending Raquel with you too.|Her lockpicking skills should come in handy."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "I'm at your command, captain."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Great. Happy to have your help, Raquel.|I'll give the gang another day to rest and we'll leave tomorrow."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Actually, I need you to leave now.|We can't give them any time to escape back to their hovels."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Oh, okay then, boss.|Whatever you say."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Don't dissapoint me, Vernados."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Boukris",
+                    "Raquel"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Boukris"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Marlin"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Leave",
+                    "(0,10)",
+                    "1,1",
+                    "event",
+                    "EndRoam"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "Boukris2Talk",
+                    "+1"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Raquel",
+                    "player"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Raquel",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

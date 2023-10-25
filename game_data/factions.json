@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Militia",
+        "name": "Militia",
+        "desc": "Villagers that have banded together to defend their home.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bandit",
+        "name": "Bandit",
+        "desc": "Ruthless brigands who live for plunder.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Delnatia",
+        "name": "Delnatia",
+        "desc": "Conquest and glory are all these soldiers fight for.",
+        "icon_nid": "EmpireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Boukris's",
+        "name": "Boukris's",
+        "desc": "Soldiers in Boukris's gang.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Guardsman",
+        "name": "Guardsman",
+        "desc": "Professional soldiers who guard wealthy towns",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Majhul",
+        "name": "Majhul",
+        "desc": "Members of the Majhul, a secret society of shamans.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Crate",
+        "name": "Crate",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Omars",
+        "name": "Omar's",
+        "desc": "Soldiers of Omar, the rebellious capo.",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

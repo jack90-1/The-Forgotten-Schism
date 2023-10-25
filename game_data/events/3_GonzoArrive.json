@@ -1,0 +1,232 @@
+[
+    {
+        "name": "GonzoArrive",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "load_unit",
+                [
+                    "Gonzalo",
+                    "player",
+                    "None"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Salvatore",
+                    "player",
+                    "None"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Tyche",
+                    "player",
+                    "None"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "6,1"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Gonzalo",
+                    "6,1",
+                    "fade",
+                    "push",
+                    "north"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Salvatore",
+                    "5,0",
+                    "fade",
+                    "push",
+                    "north"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Tyche",
+                    "7,0",
+                    "fade",
+                    "push",
+                    "north"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Hurry up, you two!|Looks like the boss is already here!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Salvatore",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Tyche",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tyche",
+                    "You're one to talk, Gonzo.|I could hear you huffing and puffing the entire hike here!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "I know how to conserve my energy.|You could learn a thing or two about that, Tyche."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tyche",
+                    "Touche..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Salvatore",
+                    "So we're finally gonna kill the boss, huh?|He's deserved it for a while."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Don't seem to happy about this, Salvy.|We're only here to rescue Vernados and Don.{w} We'll only attack Boukris if we must."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tyche",
+                    "Of course we're here to save those two idiots...|You'd probably kill the Prime herself for them, Gonzo!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "You'll understand when you have kids of your own, Tyche."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tyche",
+                    "They're not even your kids!|Just a few orphans you scooped out of a village!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Salvatore",
+                    "Can we stop arguing for at least a couple minutes?|If we don't get our head in the game we'll end up pinched like Fury."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "He's right, Tyche.{w} Let's get moving."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Gonzalo",
+                    "Salvatore",
+                    "Tyche"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Gonzalo",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Salvatore (Salvatore)",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Tyche",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Don",
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "110",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

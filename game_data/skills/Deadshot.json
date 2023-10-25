@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Deadshot",
+        "name": "Deadshot",
+        "desc": "Cannot miss.\nMt: 5 Range: 2-5 Sanity: 6",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Deadshot_child"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "cost_mana",
+                6
+            ]
+        ]
+    }
+]

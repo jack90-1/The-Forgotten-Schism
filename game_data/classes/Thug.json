@@ -1,0 +1,165 @@
+[
+    {
+        "nid": "Thug",
+        "name": "Thug",
+        "desc": "Common thugs who don't possess\neither brains or brawn.",
+        "tier": 0,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Myrmidon",
+            "Mercenary",
+            "Freerider"
+        ],
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 10,
+        "bases": {
+            "HP": 13,
+            "STR": 3,
+            "SKL": 1,
+            "SPD": 2,
+            "DEF": 1,
+            "CON": 0,
+            "MOV": 5,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 2,
+            "SAN": 20
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 45,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 25,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 35,
+            "BLS": 40,
+            "SAN": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "DEF": 30,
+            "CON": 25,
+            "MOV": 15,
+            "ATN": 30,
+            "FRT": 30,
+            "BLS": 30,
+            "SAN": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Shove"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Thug (M) Sword {Rasdel}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Thug (M) Sword {Rasdel}-stand",
+        "combat_anim_nid": "Thug",
+        "fields": []
+    }
+]

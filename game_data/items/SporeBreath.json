@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "SporeBreath",
+        "name": "Spore Breath",
+        "desc": "Target is poisoned on hit.",
+        "icon_nid": "{Celice} Monster 2",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "status_on_hit",
+                "Poisoned"
+            ],
+            [
+                "battle_cast_anim",
+                "Scathe"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

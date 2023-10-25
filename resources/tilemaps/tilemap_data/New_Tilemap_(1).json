@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "New Tilemap (1)",
+        "size": [
+            15,
+            10
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {}
+            }
+        ],
+        "tilesets": [
+            "FF5 - Caves 01 - Tileset"
+        ]
+    }
+]

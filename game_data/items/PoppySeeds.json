@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "PoppySeeds",
+        "name": "Poppy Seeds",
+        "desc": "Used to summon a god's power. Can be shared with an allly.\n-1 sanity on use.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global SummonGod"
+            ],
+            [
+                "map_hit_sfx",
+                "Berserk"
+            ],
+            [
+                "mana_cost_per_use",
+                1
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit2.klass != 'Crate75'"
+            ]
+        ]
+    }
+]

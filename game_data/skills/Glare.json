@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Glare",
+        "name": "Glare",
+        "desc": "Petrify an enemy, immobilizing them and boosting their defenses.\nRange: 1-2 Sanity:10",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Glare"
+            ]
+        ]
+    }
+]

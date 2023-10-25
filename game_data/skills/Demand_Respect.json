@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Demand Respect",
+        "name": "Demand Respect",
+        "desc": "Grants +15 Hit/Avo to allies within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Demand_Respect_Child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

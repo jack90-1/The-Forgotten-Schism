@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Stalwart",
+        "name": "Stalwart",
+        "desc": "This unit cannot be moved by any skills.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "grounded",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Bloodlust",
+        "name": "Bloodlust",
+        "desc": "+3 STR for 1 turn after defeating an enemy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_kill",
+                "Bloodlust_Child"
+            ]
+        ]
+    }
+]

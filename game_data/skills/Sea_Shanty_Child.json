@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Sea_Shanty_Child",
+        "name": "Invigorated",
+        "desc": "1.5x STR/MAG for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

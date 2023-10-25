@@ -1,0 +1,156 @@
+[
+    {
+        "name": "VernadosMarcelaTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Marcela'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Marcela",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Hey, captain.|Here to manage things?"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "FRBase1",
+                    "Go to the base menu?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:FRBase1}' == 'Yes'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Yeah, I've got some things I need to take care of."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "base",
+                [
+                    "Tavern 2",
+                    "The Great Court Anteroom- DGS"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "See ya, captain!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Marcela"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Marcela"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Nah, I think I've got everything in order."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Well, come back if you gotta fix anything, alright?"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Marcela"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Marcela"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

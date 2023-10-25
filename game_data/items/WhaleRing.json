@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WhaleRing",
+        "name": "Whale Ring",
+        "desc": "Allies within 3 spaces always double and always get doubled.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_equip",
+                "whalering1"
+            ]
+        ]
+    }
+]

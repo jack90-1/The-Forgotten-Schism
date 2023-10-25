@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 5",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Omar"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Omar"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Omar",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Adri",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adri",
+                    "It doesn't look like my brother's having a good time, cap!|Are you sure Casimiro knows where he's going?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "Cas guarded this place for five years.|He knows it like the back of his hand.|Just give him a little more time.{w} Once him and his boys come out of the tunnels it's over for these rats."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adri",
+                    "Yeah, that's cool, but they're gonna kill Jacky!|He can't take his time here, you know!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "Go help him yourself, then, if you want.|I'm not gonna stop you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adri",
+                    "Hmmph, fine."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Omar",
+                    "Adri"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Adri",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

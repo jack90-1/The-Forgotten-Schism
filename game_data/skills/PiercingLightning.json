@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PiercingLightning",
+        "name": "Piercing Lightning",
+        "desc": "Makes target weak to thunder attacks for 3 turns.\nMt: 10 Range: 1-2 Sanity: 5",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "PiercingLightning"
+            ]
+        ]
+    }
+]

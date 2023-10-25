@@ -1,0 +1,88 @@
+[
+    {
+        "name": "BattleGiacamoAurelia",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "check_pair ('Giacamo', 'Aurelia')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Giacamo",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Aurelia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aurelia",
+                    "Looking sharp, Jacky."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Giacamo",
+                    "What's up, Aurelia?|Not fighting for Vernados, are you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aurelia",
+                    "I am, unfortunately.{w} Don't suppose I can change your mind?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Giacamo",
+                    "Nope, I'm Omar's top man.{w} No way I'll give that up to go back to just being muscle."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aurelia",
+                    "Ok, then.|I'll make it quick."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Giacamo",
+                    "I will too.|Sorry, Aurelia."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aurelia",
+                    "It comes with the business.{w} No hard feelings here."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Giacamo",
+                    "Aurelia"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

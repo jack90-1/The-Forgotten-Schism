@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DeathFaisal",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Faisal'",
+        "commands": [
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Faisal",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Faisal",
+                    "This isn't it!|I'm not done yet!|I've just gotta retreat for now..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Faisal"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

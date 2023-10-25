@@ -1,0 +1,155 @@
+[
+    {
+        "name": "VernadosSamajeTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Samaje'",
+        "commands": [
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Samaje",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You there!|I don't think I've seen you here before!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Samaje",
+                    "Oh, hey there, big fella.|I came here with Ralph.{w} You know that guy?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Of course I know Ralph.|Who are you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Samaje",
+                    "The name's Samaje.{w} I'm just another traveling cleric.|I met Ralph down in the foothills, and he invited me to come up here with him.|Does that satisfy you, milord?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I can see why Ralph liked you..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Samaje",
+                    "What's that supposed to mean?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Doesn't matter.|Listen, I've got a proposition for you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Samaje",
+                    "A proposal?{w} How about you buy me a drink first?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "No, nothing like that!|I was gonna ask if you wanted to join up with us.|We need another healer, and I can set you up a lot better than Ralph can."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Samaje",
+                    "Wow, big guy, I'm flattered.|I think I'll take you up on that!|I could use some more pocket change..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Great.{w} Just none of that flirting stuff with me, ok?|Save it for someone that actually wants to hear it!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Samaje",
+                    "If you say so, mister..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Samaje"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "What did I just get myself into...?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Samaje",
+                    "player"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Samaje"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

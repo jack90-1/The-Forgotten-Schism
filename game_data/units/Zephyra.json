@@ -1,0 +1,121 @@
+[
+    {
+        "nid": "Zephyra",
+        "name": "Zephyra",
+        "desc": "One of Enyo's lieutenants.\nUnflinching in the face of danger.",
+        "variant": null,
+        "level": 14,
+        "klass": "Wyvern Rider",
+        "tags": [
+            "Boss",
+            "Dragon",
+            "Flying"
+        ],
+        "bases": {
+            "HP": 33,
+            "STR": 12,
+            "ATN": 2,
+            "SKL": 11,
+            "SPD": 8,
+            "BLS": 9,
+            "DEF": 9,
+            "FRT": 3,
+            "CON": 10,
+            "MOV": 7,
+            "SAN": 30
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "BLS": 0,
+            "DEF": 0,
+            "FRT": 0,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Silver Lance",
+                false
+            ],
+            [
+                "Short Spear",
+                false
+            ],
+            [
+                "HolyIcon",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                121,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Levin64} - F2U 1",
+        "affinity": "Mundane",
+        "fields": []
+    }
+]

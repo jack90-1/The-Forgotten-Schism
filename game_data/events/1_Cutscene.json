@@ -1,0 +1,208 @@
+[
+    {
+        "name": "Cutscene",
+        "trigger": "enemy_turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 1",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Eudexia"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Eudexia"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Mist- FMAB"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Village 1 Daytime"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Eudexia",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Eudexia",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "Just one more den to smoke out and then I can be done with this accursed detail.|Those girls from the pegasus corps should be circling around soon.|They sure do love to take their sweet time..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "Captain Eudexia!"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Eudexia",
+                    "OpenEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "What now, soldier?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "We, umm, took a prisoner, sir!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Raquel",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "Oh, who is this pretty little thing?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "A quiet one, huh?|Well, I hate to spill such cute blood, but orders are orders..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Raquel",
+                    "..."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Raquel",
+                    "Left"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Attack Hit 1"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Raquel",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Raquel"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Eudexia"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "Wha-!?|The audacity!|Soldier, stop staring and get after the wench!|I won't let her off easy after that!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "Y-yes, at once s-sir!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Eudexia",
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

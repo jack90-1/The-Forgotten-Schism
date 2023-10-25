@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathGiacamo",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Giacamo'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Giacamo",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Giacamo",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Giacamo",
+                    "Guh...|A...{w} dri..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Giacamo"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

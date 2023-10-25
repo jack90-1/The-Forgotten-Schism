@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "King_of_the_Seas",
+        "name": "King of the Seas",
+        "desc": "Gain +1 damage for each point of SPD unit has over target.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "max(0, unit.get_stat('SPD') - unit2.get_stat('SPD'))"
+            ]
+        ]
+    }
+]

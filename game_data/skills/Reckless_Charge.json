@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Reckless Charge",
+        "name": "Reckless Charge",
+        "desc": "+4 STR, -4 DEF/RES when unit moves full movement.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.movement_left == 0"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        -4
+                    ],
+                    [
+                        "RES",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

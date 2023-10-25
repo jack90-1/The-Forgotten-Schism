@@ -1,0 +1,74 @@
+[
+    {
+        "name": "BattleBoukrisGonzalo",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Gonzalo', 'Boukris')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "You see this, you bastard?|I stayed true to my word.{w} Can the same be said for you?"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Boukris",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "You always were the righteous type, Gonzo.|You've done good work for me all these years.|{c:expression;Boukris;NoSmile}You know what happens to people who cross me, though."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Enough of your words.|I'm going to kill you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "A shame.|I hate to lose such a good capo."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boukris",
+                    "Gonzalo"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

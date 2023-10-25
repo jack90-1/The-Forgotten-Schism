@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "PrettyDress",
+        "name": "Pretty Dress",
+        "desc": "Enemies will only attack this unit if no other player units are within their range.",
+        "icon_nid": "items",
+        "icon_index": [
+            14,
+            0
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                0.5
+            ]
+        ]
+    }
+]

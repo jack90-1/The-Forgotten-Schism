@@ -1,0 +1,29 @@
+[
+    {
+        "name": "DopeFiend",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid == 'Segundo'"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "Segundo",
+                    "{e:unit.get_hp()+20}"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

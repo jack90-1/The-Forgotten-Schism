@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "SanityGain",
+        "name": "SanityGain",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "mana_regeneration",
+                2
+            ],
+            [
+                "condition",
+                "not 'Shamaning' in unit.tags"
+            ],
+            [
+                "global",
+                null
+            ]
+        ]
+    }
+]

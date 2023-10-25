@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "PrettyDress",
+        "name": "Pretty Dress",
+        "desc": "Enemies will only attack wielder if no other player units are in their range.",
+        "icon_nid": "items",
+        "icon_index": [
+            14,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "status_on_equip",
+                "PrettyDress"
+            ]
+        ]
+    }
+]

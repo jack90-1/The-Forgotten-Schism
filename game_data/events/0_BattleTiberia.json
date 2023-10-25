@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BattleTiberia",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == 'Tiberia' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Tiberia')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Into the Castle- King of Dragons"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Tiberia",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tiberia",
+                    "You will not go any further.|I will stop you with my bare hands, if I must.|The commander has a grand vision, and I don't intend to let anyone impede him."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Tiberia"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

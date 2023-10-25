@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Rundown",
+        "trigger": "on_base_convo",
+        "level_nid": "4",
+        "condition": "unit == 'The Rundown'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Lost Souls Alliance- Grim Fandango"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Tavern 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "All right, Gonzo, I'm ready.|Lay it on me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Let's start with the most important stuff first.{w} Your capos.|With Luis dead, Ralph gone, and you promoted, you've got 3 empty positions."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Well, my old spot is going to Don.{w} I have no clue what to do with the other two, though."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Ralph's spot should be pretty easy to fill.{w} His man Omar has always been a good soldier.|He should be happy to take the job."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Omar always gave me the creeps, but I trust you.|That leaves one spot."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "If you're looking to reconcile, I'd recommend one of Luis's boys.{w} You didn't kill all of them, did you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Ok, then.{w} What about one of your own, then?{w} Marcela could be a good fit."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I need Marcela to guard me.{w} And everyone else in my crew has their own little quirks."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "We'll think on it, then.{w} Since you,{w} erm...|wiped out Luis's crew, there won't be anything to worry about on that front."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "...What else is there I need to know?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "A lot.{w} As boss, you need to learn to run this gang like a business.{w} You've been out there as a bruiser your whole life,{w} but if you want something sustainable, you'll have to do some negotiating."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Right, I can do that.|I was never a big fan of the killing, anyway."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "I'll take you to the stash later today, introduce you to the guards.|The boss has got to know where his money comes from, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Right.|Thanks, Gonzo.{w} I don't know where I'd be without you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Don't sweat it, kid.|It's just my job to make sure things run smoothly."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Man, this shit is really for real...|I've got my work cut out for me..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

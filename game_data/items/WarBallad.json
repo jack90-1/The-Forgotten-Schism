@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "WarBallad",
+        "name": "War Ballad",
+        "desc": "Grant target STR +4 for 1 turn.\nSanity: 3",
+        "icon_nid": "songs (1)",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "mana_cost_per_use",
+                3
+            ],
+            [
+                "status_on_hit",
+                "WarBallad"
+            ],
+            [
+                "map_cast_sfx",
+                "RefreshFluteMap"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "exp",
+                20
+            ]
+        ]
+    }
+]

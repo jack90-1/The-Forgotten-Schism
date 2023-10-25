@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "Blueberries",
+        "name": "Blue Berries",
+        "desc": "Use to heal 10 HP to 2 adjacent targets.",
+        "icon_nid": "items",
+        "icon_index": [
+            13,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "heal",
+                10
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "multi_target",
+                2
+            ],
+            [
+                "prf_tags",
+                [
+                    "Medic"
+                ]
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit2.klass != 'Crate75'"
+            ]
+        ]
+    }
+]

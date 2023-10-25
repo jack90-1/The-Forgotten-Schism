@@ -1,0 +1,39 @@
+[
+    {
+        "name": "EudexiaDeath",
+        "trigger": "unit_death",
+        "level_nid": "1",
+        "condition": "unit.nid == 'Eudexia'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Eudexia",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Eudexia",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "You weren't supposed to...|kill me...|You're just..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Eudexia"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

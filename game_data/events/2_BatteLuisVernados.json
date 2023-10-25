@@ -1,0 +1,74 @@
+[
+    {
+        "name": "BatteLuisVernados",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Luis', 'Vernados')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luis",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You're a snake, Luis!|Trying to kill someone while they're staying in your home?|It's pathetic!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luis",
+                    "You would do the same in my position, Vernados.|You're a threat to my power, and the boss's, too.|You know I can't let you live."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "To hell with your power!|I never hurt you, we've always worked together!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luis",
+                    "I know, and I'm sorry.|But this must be done."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I'll bite your head off your shoulders, coward!|Come at me!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luis",
+                    "Vernados"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

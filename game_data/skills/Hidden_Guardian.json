@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Hidden_Guardian",
+        "name": "Hidden Guardian",
+        "desc": "Unit will survive fatal attacks with 1 HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "miracle",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,1226 @@
+[
+    {
+        "nid": "Mercenary1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Bandit1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Man1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Man2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Man3",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Woman1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Woman2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "OldMan1",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "SoldierBlue",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "SoldierRed",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Boukris",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            8,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Solomon",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Woman3",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Thief",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Nereus",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Euridos",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Vernados",
+        "blinking_offset": [
+            26,
+            33
+        ],
+        "smiling_offset": [
+            30,
+            45
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Maria",
+        "blinking_offset": [
+            29,
+            39
+        ],
+        "smiling_offset": [
+            32,
+            53
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Marcela",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ariadne",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Don",
+        "blinking_offset": [
+            23,
+            31
+        ],
+        "smiling_offset": [
+            27,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Marlin",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Marius",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Girl (Serif) (3)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Woman 2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Man {Sterling Glovner}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "HyperGammaSpaces_VillagerM1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_16",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ralph",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Gonzalo",
+        "blinking_offset": [
+            22,
+            23
+        ],
+        "smiling_offset": [
+            23,
+            42
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Its_Just_Jay F2E 27",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "JiroPaiPai-Black hair priest",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_08",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_21",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Red Cavalier",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Segundo",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Der_32",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CapibaraInSpace F2U OC 19",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ionidas",
+        "blinking_offset": [
+            28,
+            37
+        ],
+        "smiling_offset": [
+            30,
+            50
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Phineas",
+        "blinking_offset": [
+            30,
+            31
+        ],
+        "smiling_offset": [
+            32,
+            46
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Onyx",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Der_12",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CapibaraInSpace F2U OC 6",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Salvatore",
+        "blinking_offset": [
+            24,
+            27
+        ],
+        "smiling_offset": [
+            29,
+            42
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_14",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{GabrielKnight} F2U OC 5",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_33",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CanDy F2E 18",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kanna F2E OC 15",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Noblewoman",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "(JeyTheCount) Oswin",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Pegasus Knight",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZessDynamite_04",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Toa OC 18",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CapibaraInSpace F2U OC 6 (1)",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kanna F2E OC 15 (1)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Gaulle",
+        "blinking_offset": [
+            29,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            54
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "OC Proud Knight (Version 3) {monk-han}",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_29",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Levin64} - F2U 1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Knight Red (It's_Just_Jay)",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "56",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Levin64} - F2U 7",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Pirate",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Boy 1",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Warpath- Kayla",
+        "blinking_offset": [
+            27,
+            29
+        ],
+        "smiling_offset": [
+            19,
+            45
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Style 1 Portrait  043023  Jack",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Bandit (Sideburns)",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Woman 1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Bastian",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "amema003",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "jiropaipai",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lenh_4",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Pinkman_1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Pirate_1",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "amema003_1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cavalier M (MeatOfJustice, BuskHusker)",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            8,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kain",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Blank",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "jiropaipai2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Don_1",
+        "blinking_offset": [
+            16,
+            31
+        ],
+        "smiling_offset": [
+            27,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Standard hackbox - Copy (11)",
+        "blinking_offset": [
+            21,
+            30
+        ],
+        "smiling_offset": [
+            17,
+            47
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LaurentLacroix_22",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{SirNicee} F2E OC 4",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "SoldierYellow",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Standard hackbox - Copy (10)",
+        "blinking_offset": [
+            20,
+            24
+        ],
+        "smiling_offset": [
+            15,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Standard hackbox - Copy (9)",
+        "blinking_offset": [
+            15,
+            16
+        ],
+        "smiling_offset": [
+            13,
+            36
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Horst",
+        "blinking_offset": [
+            19,
+            21
+        ],
+        "smiling_offset": [
+            18,
+            41
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Amelia (Parts from Zelkami)",
+        "blinking_offset": [
+            25,
+            28
+        ],
+        "smiling_offset": [
+            22,
+            42
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Eris (Parts from Laurent Lacroix",
+        "blinking_offset": [
+            21,
+            30
+        ],
+        "smiling_offset": [
+            16,
+            46
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Toa OC 22",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Omar (Parts from ZessDynamite and Zelkami)",
+        "blinking_offset": [
+            21,
+            21
+        ],
+        "smiling_offset": [
+            18,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Don_2",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ngozi (Parts from ZessDynamite and Zelkami)",
+        "blinking_offset": [
+            26,
+            29
+        ],
+        "smiling_offset": [
+            21,
+            42
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Savino (Parts from Garytop)",
+        "blinking_offset": [
+            26,
+            27
+        ],
+        "smiling_offset": [
+            22,
+            46
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "49",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Ghostblade913} Joyeuse Hero",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Aurelia (Parts from Ambrosiac, LaurentLacroix, and Yasako)",
+        "blinking_offset": [
+            20,
+            30
+        ],
+        "smiling_offset": [
+            15,
+            43
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Aurelia (Parts from Ambrosiac, LaurentLacroix, and Yasako)_1",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            16,
+            4
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Alerie (Parts from Garytop)",
+        "blinking_offset": [
+            24,
+            28
+        ],
+        "smiling_offset": [
+            21,
+            41
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ianthe (Parts from Garytop and Zelkami)",
+        "blinking_offset": [
+            18,
+            22
+        ],
+        "smiling_offset": [
+            14,
+            39
+        ],
+        "info_offset": 0
+    }
+]

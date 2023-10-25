@@ -1,0 +1,164 @@
+[
+    {
+        "nid": "KingpinM",
+        "name": "Kingpin",
+        "desc": "Veteran bandits who have risen\nabove the rest.",
+        "tier": 2,
+        "movement_group": "Pirates",
+        "promotes_from": "Pirate",
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 24,
+            "STR": 7,
+            "SKL": 6,
+            "SPD": 7,
+            "DEF": 6,
+            "CON": 13,
+            "MOV": 6,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 20
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 50,
+            "SKL": 35,
+            "SPD": 25,
+            "DEF": 10,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 13,
+            "BLS": 15,
+            "SAN": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 1,
+            "SKL": 1,
+            "SPD": 1,
+            "DEF": 2,
+            "CON": 3,
+            "MOV": 1,
+            "ATN": 0,
+            "FRT": 2,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 30,
+            "SKL": 29,
+            "SPD": 28,
+            "DEF": 23,
+            "CON": 25,
+            "MOV": 15,
+            "ATN": 20,
+            "FRT": 21,
+            "BLS": 30,
+            "SAN": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Shove"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                40,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                40,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Berserker",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Berserker (M) Hawkeye Sword {ZoramineFae}-stand",
+        "combat_anim_nid": "KingpinM",
+        "fields": []
+    }
+]

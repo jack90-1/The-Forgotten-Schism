@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Glare",
+        "name": "Glare",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "mana_cost",
+                10
+            ],
+            [
+                "status_on_hit",
+                "Petrified"
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "SilenceCrack"
+            ],
+            [
+                "exp",
+                15
+            ]
+        ]
+    }
+]

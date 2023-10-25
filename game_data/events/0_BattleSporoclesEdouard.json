@@ -1,0 +1,67 @@
+[
+    {
+        "name": "BattleSporoclesEdouard",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Sporocles', 'Edouard')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Into the Castle- King of Dragons"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sporocles",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Edouard",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Edouard",
+                    "Foolish boy, stop this madness!|Ausar and Tiberia have retreated!|We have you beat, young one."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sporocles",
+                    "You've always been a cowardly geezer, haven't you, Edouard?|So stuck in your ways you can't accept any change.|I'm sorry, master, but the time to act is now.{w} Our world is falling apart.|Only those with the power of the gods can hope to save it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Edouard",
+                    "You have no clue what you are getting into, boy!|There's a reason our forefathers relegated our powers to secrecy!|I beg of you, be reasonable and lay down your arms."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sporocles",
+                    "It makes me sad to see you acting like this, master.{w} It's pathetic.|If you're so afraid of action, I'll just have to put you out of your misery.|I hope you find peace."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sporocles",
+                    "Edouard"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

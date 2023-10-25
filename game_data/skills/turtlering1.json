@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "turtlering1",
+        "name": "Turtle Ring",
+        "desc": "Allies within 3 spaces get +5 DEF and cannot double or be doubled.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            5,
+            4
+        ],
+        "components": [
+            [
+                "aura",
+                "turtlering2"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

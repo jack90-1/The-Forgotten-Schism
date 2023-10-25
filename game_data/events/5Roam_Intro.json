@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "5Roam",
+        "condition": "True",
+        "commands": [
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Marcela"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Casimiro"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Boukris"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

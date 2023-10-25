@@ -1,0 +1,54 @@
+[
+    {
+        "name": "DeathTiberia",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Tiberia'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Tiberia",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tiberia",
+                    "You may strike us down, but you cannot hope to even scratch the commander.|We will rise again, stronger than ever before.|Remember our words and tremble, foolish ones."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Tiberia"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "BossCount"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level_vars.get('BossCount') == 3"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "Outro"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

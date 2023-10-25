@@ -1,0 +1,150 @@
+[
+    {
+        "name": "VernadosBoukrisTalk",
+        "trigger": "on_talk",
+        "level_nid": "3Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Boukris'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Ah, Vernados, you're back.|Did you take care of our problem?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Easily, boss.|Those Kohlers stood no chance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I knew they wouldn't.{w} And the treasure? Was there really an ancient cache of loot there?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You wouldn't believe it, boss.|We should be set up for the next month or two, at least."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Hmmmm..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "What is it, boss?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I've heard rumors that Delnatia is marching on us.|This could be our time to strike."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Wait, seriously?|We're being invaded?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Yes, but it's good for us.|We'll be able to operate more openly with the military occupied,|and with all the chaos, we'll be able to hit harder and faster."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Mmm, I guess you're right."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I want you take take your crew to Recoletos."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Huh?!|You mean THE Recoletos?{w} The richest town in the country?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Yes.|I want you to scout things out.|If it looks like there's an opportunity, strike hard and fast.|This is the chance of a lifetime, Vernados.|I would've killed to do a raid this big back when I was a captain."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Alright, then, boss.|I'll get everyone together and leave right away."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Hopefully this will harden him up.|There's no room for cowardice with what's about to take place.|Luis...{w} I hope you're watching..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Boukris"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "Boukris3Talk",
+                    "+1"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

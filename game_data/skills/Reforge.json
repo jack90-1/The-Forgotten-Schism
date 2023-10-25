@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reforge",
+        "name": "Reforge",
+        "desc": "Targets attacks are brave for 1 turn.\nRange:1 Sanity: 12",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Reforge"
+            ]
+        ]
+    }
+]

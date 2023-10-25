@@ -1,0 +1,66 @@
+[
+    {
+        "name": "AureliaArrive",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 1",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "14,5"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Aurelia",
+                    "player"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Light Foot Steps 1"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Aurelia",
+                    "14,5",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Aurelia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aurelia",
+                    "What's all the commotion out here?|...{w} Oh, shit!|How the hell did all these people get in here!{w} Casimiro was supposed to be on the door!{w} Damn, looks like I got my work cut out for me..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Aurelia"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

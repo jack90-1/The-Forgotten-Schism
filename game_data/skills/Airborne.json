@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "Airborne",
+        "name": "Airborne",
+        "desc": "This unit is summoning a flying god, allowing them to pass over any terrain.\nUnit becomes weak to arrows.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            16
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Flying"
+                ]
+            ],
+            [
+                "movement_type",
+                "Fliers"
+            ]
+        ]
+    }
+]

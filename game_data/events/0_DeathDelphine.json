@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DeathDelphine",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Delphine'",
+        "commands": [
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Delphine",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Delphine",
+                    "This is bad, Edouard.|I've gotta pull bacl.{w} Sorry."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Delphine"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

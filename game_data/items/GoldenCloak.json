@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "GoldenCloak",
+        "name": "Golden Cloak",
+        "desc": "+3 MAG/RES when equipped.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Armor 26",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "value",
+                2000
+            ]
+        ]
+    }
+]

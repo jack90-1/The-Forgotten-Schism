@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "_convoy",
+        "desc": "Access to convoy"
+    },
+    {
+        "nid": "_supports",
+        "desc": "Access to suports"
+    },
+    {
+        "nid": "_base_market",
+        "desc": "Access to base market"
+    },
+    {
+        "nid": "_turnwheel",
+        "desc": "Access to turnwheel"
+    },
+    {
+        "nid": "_current_turnwheel_uses",
+        "desc": "yep"
+    },
+    {
+        "nid": "_max_turnwheel_uses",
+        "desc": "yep"
+    },
+    {
+        "nid": "BossesKilled0",
+        "desc": "LevelVar for Bosses killed in Prelude"
+    },
+    {
+        "nid": "CratesDestroyed4",
+        "desc": "LevelVar for crates destroyed in 4"
+    }
+]

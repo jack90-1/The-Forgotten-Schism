@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Turnwheel Reset",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "enable_turnwheel",
+                [
+                    "n"
+                ]
+            ],
+            [
+                "enable_turnwheel",
+                [
+                    "y"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "_max_turnwheel_uses",
+                    "1"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "_current_turnwheel_uses",
+                    "1"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

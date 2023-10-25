@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "DopeFiend",
+        "name": "Dope Fiend",
+        "desc": "Gain 20 HP when using a drug item.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            14
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

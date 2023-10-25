@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RammingSpeed",
+        "name": "Ramming Speed",
+        "desc": "Gain +1 AS for every space moved before initiating combat.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_attack_speed",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position))"
+            ]
+        ]
+    }
+]

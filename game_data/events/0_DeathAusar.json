@@ -1,0 +1,121 @@
+[
+    {
+        "name": "DeathAusar",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Ausar'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Ausar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ausar",
+                    "Shit, that was a good hit!|I better get the hell out of here...|I am NOT dying for that rat Sporocles!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ausar"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Sporocles"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Sporocles"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sporocles",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sporocles",
+                    "Ausar has fallen...{w} I shouldn't have expected anything from that layabout.|You two, go avenge your comrade.{w} I do not require you to guard me any longer."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "At once, commander!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sporocles",
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "113",
+                    "Charge"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "114",
+                    "Charge"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "BossCount"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level_vars.get('BossCount') == 3"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "Outro"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "GreenHerb",
+        "name": "Green Herb",
+        "desc": "Use to restore 15 HP to an adjacent ally.\nCan only be used by medics.",
+        "icon_nid": "items",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "heal",
+                15
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Medic"
+                ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit2.klass != 'Crate75'"
+            ],
+            [
+                "exp",
+                25
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "ArmsmasterFists",
+        "name": "Armsmaster",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Fists'"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

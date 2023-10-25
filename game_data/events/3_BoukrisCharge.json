@@ -1,0 +1,67 @@
+[
+    {
+        "name": "BoukrisCharge",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "any_unit_in_region('boukris1', team='player') or any_unit_in_region('boukris2', team='player')",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Boukris"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Boukris"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "This is taking too long.|I'll just have to get in the mix myself.|It's over, snakes."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Boukris"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Boukris",
+                    "Charge"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "boukris",
+                    "west",
+                    "boukris",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

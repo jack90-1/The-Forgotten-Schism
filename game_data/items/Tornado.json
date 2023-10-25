@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "Tornado",
+        "name": "Tornado",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "map_cast_sfx",
+                "Wind"
+            ],
+            [
+                "map_hit_sfx",
+                "WindWave"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "shove_target_restrict",
+                3
+            ],
+            [
+                "shove",
+                3
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ]
+        ]
+    }
+]

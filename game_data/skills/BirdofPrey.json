@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BirdofPrey",
+        "name": "Bird of Prey",
+        "desc": "This unit's ATN is added to their attack speed.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "alternate_attack_speed_formula",
+                "BIRDOFPREY"
+            ]
+        ]
+    }
+]

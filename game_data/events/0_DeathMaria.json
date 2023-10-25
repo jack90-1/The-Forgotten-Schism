@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DeathMaria",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'MariaPrelude'",
+        "commands": [
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "MariaPrelude",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "MariaPrelude",
+                    "No, I won't let you kill me!|I'm the future of the Majhul!|I'm pulling back, master!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "MariaPrelude"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 4",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Giacamo"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Giacamo"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Giacamo",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Giacamo",
+                    "I've had enough waiting, boys!|I'm comin' to take care of this myself!|Outta my way!!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Giacamo"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Giacamo",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

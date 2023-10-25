@@ -1,0 +1,164 @@
+[
+    {
+        "name": "VernadosPalmeroTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Palmero'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Palmero",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Ah, if it isn't Vernados!|I was just telling Melaina here about the wonderful job you did in Frias."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Melaina",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Melaina",
+                    "Impressive work.{w} I didn't know you had it in you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Er...{w} thanks, guys.|It really wasn't anything special, though."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Oh ho!{w} Don't be modest!|Your first real job as captain, and you hit it out of the park.|This is a cause for celebration!|Right, Melaina?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Melaina",
+                    "Indeed...|A celebration, for sure."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Yeah...{w} That sounds nice, but I've got another job already."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Already?|Well, get used to it.{w} Boukris will work you to the bone, now that you're a captain.|When I was in your position, I was lucky if I got an hour of sleep at night!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Anything to help the family, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Of course."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Well, I, uh, better get going now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Yes, yes.{w} No need for us to keep interfering with your duties."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Palmero",
+                    "Left"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Palmero"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Melaina",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Ten years, but he's still just as sour as when the boss brought him in..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Melaina",
+                    "It must be in his blood."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Palmero",
+                    "Yes, I suppose you're right."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Palmero",
+                    "Melaina"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

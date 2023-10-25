@@ -1,0 +1,36 @@
+[
+    {
+        "name": "+10 Sanity",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "set_current_mana",
+                [
+                    "{unit2}",
+                    "{e:unit2.get_mana()+10}"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit2.nid == 'Segundo'"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "Segundo",
+                    "{e:unit.get_hp()+20}"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

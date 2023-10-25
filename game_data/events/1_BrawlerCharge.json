@@ -1,0 +1,90 @@
+[
+    {
+        "name": "BrawlerCharge",
+        "trigger": "unit_wait",
+        "level_nid": "1",
+        "condition": "any_unit_in_region('BrawlerCharge', team='player')",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Eudexia"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Eudexia"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Eudexia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "What!?{w} They're coming for me!?|Sergeant, come help me hold my position!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Eudexia"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "111"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "111"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "At once, sir!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "111",
+                    "Charge"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "105",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

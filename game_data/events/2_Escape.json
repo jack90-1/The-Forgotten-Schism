@@ -1,0 +1,447 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "remove_unit",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.nid == 'Vernados'"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I've broken through over here!|Let's get out of this shithole!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Merriment- Triangle Strategy"
+                ]
+            ],
+            [
+                "victory_screen",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Mountain Pass 2 Evening"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Maria",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I think it's over...|We've been out for an hour now, and no one's followed us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "I think we beat those thugs up pretty good, Vernados.|You and Don are now more powerful than you think."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "We didn't just beat them up, we slaughtered them.|I'd be surprised if his crew ever came back, after what we just did."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "You're not going soft on us, are you?|They locked us up like livestock just because{w} Luis heard a rumor that you MIGHT be stronger than him."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Yeah, I get it.{w} It was self defense.|But still, Luis was always nice to us...{w}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "If you start thinking about \"but's\" or \"should'ves\"{w} you're never going to get anywhere.{w} You did what you had to do, and that's that.{w} No use in moping about it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Right, we have no time to waste.{w} Let's head south.|The boss will probably have a bone to pick with us now that we killed his boyfriend."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "But isn't the boss's hideout down south, too?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Yeah, it is.{w} I want to settle this quick.|With all these foreign soldiers running around, we can't be hiding from the boss, too."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Are you crazy, Vern?!{w} You wanna kill the boss!?|Remember his duel against Ralph?{w} He would've ripped his head clean off if Gonzo didn't pull him back!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Come on, Don.{w} You just tore down the walls at Luis's place like they were toys!|It looked like you were making earthquakes!|Boukris is no match for us, now that we have these weird powers."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "I think it's a good course of action, too.|We need to have a solid base to work from with this invasion going on."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Hear that, Don?{w} Even Maria agress with me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Fine then.|I guess we can go and get ourselves killed by the boss..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Ahh, lighten up, Donny.|Here, come with me.{w} I bet Marcela stole some nice beer from Luis."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "I'll never turn down a good beer!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "They're still just children...|Gods, please watch over us."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Maria"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Barbarian Tribe- Thracia 776"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Nighttime Tavern 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ralph",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I see.|Luis is dead, by Vernados' hand."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "I'm telling you, it's false!|My boy would never kill his fellow capo!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Ehhh, I don't know, Gonzo.{w} Have you ever played poker with him?|The kid can be ruthless."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "I can show YOU ruthless, Ralph!|Are you implying that my son could be that honorless!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Hush.{w} I can't think over you dogs yapping at each other."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Sorry, boss.|I guess yapping's my nature, heh heh."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I don't see why Luis's messenger would lie about this.|Vernados is still getting his footing as a capo.{w} He wouldn't have anything Luis would want."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "But why would Vern just murder Luis!?|This is a foolish plot, and nothing more.|I'll bring the boys here myself, boss.{w} They'll show that this is a load of bullshit."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "You can go if you want, Gonzalo.|I'd be careful, though.{w} Vernados might have some more targets in mind."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Another word like that and I'll kill you.|You aren't as powerful as you think, Boukris."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Ha!{w} You always were a firey one, Gonzo.|That's why I made you a capo!|If you really think Vernados is innocent, you can go."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "I'll remember this, boss."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "How can you just let him talk to you like that?|You're the boss, for Goddess's sake!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Gonzalo is more useful to me out with Vernados than as a head on a spear."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Huh?{w} What do you mean?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Get your crew ready to head south, Ralph.|We're going to kill two birds with one stone."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Ha, you sly devil.|That was all a ploy, wasn't it?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "A master never reveals his secrets.|Now go.{w} We don't have time to waste."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "On it, boss!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boukris",
+                    "Ralph"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

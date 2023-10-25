@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "CrouchingStance_child",
+        "name": "Crouching Stance",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "map_cast_sfx",
+                "Battle Cry"
+            ],
+            [
+                "status_on_hit",
+                "CrouchingStance_child"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

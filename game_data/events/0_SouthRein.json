@@ -1,0 +1,33 @@
+[
+    {
+        "name": "SouthRein",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 8",
+        "commands": [
+            [
+                "move_cursor",
+                [
+                    "2,2"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "SouthRein",
+                    "south",
+                    "SouthRein",
+                    "normal"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

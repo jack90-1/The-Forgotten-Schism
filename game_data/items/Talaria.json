@@ -1,0 +1,33 @@
+[
+    {
+        "nid": "Talaria",
+        "name": "Talaria",
+        "desc": "Grants +3 AS when initiating combat.\n-3 DEF when equipped.",
+        "icon_nid": "items",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Talaria",
+                    "Talaria2"
+                ]
+            ]
+        ]
+    }
+]

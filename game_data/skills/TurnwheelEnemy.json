@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TurnwheelEnemy",
+        "name": "Turnwheel Granter",
+        "desc": "+1 turnwheel charge upon defeating this enemy",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "unit_anim",
+                "OverchargeAura"
+            ]
+        ]
+    }
+]

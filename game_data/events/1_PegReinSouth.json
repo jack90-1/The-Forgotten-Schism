@@ -1,0 +1,27 @@
+[
+    {
+        "name": "PegReinSouth",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 5",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "PegReinSouth",
+                    "south",
+                    "PegReinSouth",
+                    "normal"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

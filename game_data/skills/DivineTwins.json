@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "DivineTwins",
+        "name": "Divine Twins",
+        "desc": "This unit can create a copy of themselves.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

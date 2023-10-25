@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Burned",
+        "name": "Burned",
+        "desc": "Unit's STR is halved.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    138,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

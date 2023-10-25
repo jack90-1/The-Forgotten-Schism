@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "RottenAura",
+        "name": "Rotten Aura",
+        "desc": "Enemies within 3 spaces take 8 damage at the start of every turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Poisoned"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

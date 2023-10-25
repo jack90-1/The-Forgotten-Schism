@@ -1,0 +1,119 @@
+[
+    {
+        "name": "DeathLuis",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Luis'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Luis",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Luis",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luis",
+                    "I was right...|The gang is...{w}finished...|I'm sorry, Boukris...{w} I...{w} Failed you..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luis"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Toro"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Toro"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Toro",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "What!?|They killed the cap?!|You there!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "Yeah, Toro?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "Don't just stand around there like an idiot!|They just killed our capo!{w} Go and get your revenge!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "Fine..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "These new kids don't have any respect..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Toro"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "116",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

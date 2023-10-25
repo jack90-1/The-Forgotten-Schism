@@ -1,0 +1,163 @@
+[
+    {
+        "nid": "Maria",
+        "name": "Maria",
+        "desc": "A brooding traveler that is well-versed in medicine.\nShe's well educated for someone from the countryside.",
+        "variant": "",
+        "level": 3,
+        "klass": "MedicF",
+        "tags": [
+            "AutoPromote"
+        ],
+        "bases": {
+            "HP": 21,
+            "STR": 4,
+            "SKL": 5,
+            "SPD": 7,
+            "DEF": 2,
+            "CON": 6,
+            "MOV": 5,
+            "ATN": 8,
+            "FRT": 10,
+            "BLS": 5,
+            "SAN": 18
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 35,
+            "SKL": 30,
+            "SPD": 40,
+            "DEF": 20,
+            "CON": 0,
+            "MOV": 1,
+            "ATN": 40,
+            "FRT": 45,
+            "BLS": 35,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Slim Lance",
+                false
+            ],
+            [
+                "GreenHerb",
+                false
+            ],
+            [
+                "SimpleBomb",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Nationality",
+                "Sarenas"
+            ],
+            [
+                "Height",
+                "5'7\""
+            ],
+            [
+                "Age",
+                "28"
+            ],
+            [
+                "Likes",
+                "Reading"
+            ],
+            [
+                "",
+                "Medicine"
+            ],
+            [
+                "Dislikes",
+                "Folk tales"
+            ],
+            [
+                "",
+                "Magic"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                31,
+                251
+            ],
+            "Default": [
+                false,
+                31,
+                251
+            ],
+            "Arcane": [
+                false,
+                31,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                31,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Standard hackbox - Copy (11)",
+        "affinity": "Mundane",
+        "fields": []
+    }
+]

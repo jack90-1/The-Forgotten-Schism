@@ -1,0 +1,81 @@
+[
+    {
+        "name": "BattleToroLupe",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Toro', 'Lupe')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Toro",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lupe",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "Lupe, you finally showed up!|We're getting killed out here!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Shut up, you hulking idiot.|Let us pass or I'll kill you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "Hahaha!|The girl thinks she can kill me?|You must be joking Lupe, we're best friends!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Not anymore, you cow.|I don't need you anymore."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "Huh?{w} You're serious?|Taste my axe then, whore!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Always the gentleman, Toro..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Toro",
+                    "Lupe"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

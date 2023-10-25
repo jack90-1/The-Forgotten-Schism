@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "HolyIcon",
+        "name": "Holy Icon",
+        "desc": "Unit's Blessing is added to their hit.",
+        "icon_nid": "items",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "status_on_equip",
+                "HolyIcon"
+            ]
+        ]
+    }
+]

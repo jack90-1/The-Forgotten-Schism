@@ -1,0 +1,159 @@
+[
+    {
+        "name": "Studies in Idiocy",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit == 'Studies in Idiocy'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Tavern 1"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Jolly Roger Lagoon- Banjo Tooie"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Claudia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "How can I be expected to get any research done in this shanty...|If I had never beaten that idiot at poker, I would still be safe and sound at the library..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Marcela",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Hey, new girl!|What're you doing, all cooped up in here by yourself?|You should come out and hang with us!|Just between me and you, but I think Segundo has a crush on you..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Thanks, but I'd rather stay in here, by myself.{w} I have important research to attend to.{w} As for the second matter, you can tell him I am not interested."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Ha, I don't blame you!|I love him, but I don't think the kid's ever heard of a bathtub.|Anyways, what are you researching?{w} Can I see?|I've always wanted to know what you smart people get up to."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Well, it's complicated.|I've been studying the ostracization of shamans,{w} and their relationship with the Church of Sarenas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "The ostrichation of who with the what now?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "I told you, it was a complex issue.|It took me years of studying at the academy to understand this topic."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Hey, I'm not a dummy!|Why don't you just try to explain it with normal words?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Fine.|Hundreds of years ago, there were many people who manifested strange powers.|As time went on, these people were shunned by society,{w} and their powers eventually disapeared.|I believe the Church had a large part to play in this disappearance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Huh.{w} Why'd everyone hate those weirdos?|Donny and Vern do weird stuff too, but they're still my best friends."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "That is what I seek to find out, Marcela."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Well, have fun with that, then, Clauds.{w} I've gotta get back in the action.|Don bet me 5 marks that I couldn't convince Segundo to steal Maria's books."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Marcela"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "\"Clauds\"?|That girl sure is friendly..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Claudia"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

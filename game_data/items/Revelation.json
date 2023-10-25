@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Revelation",
+        "name": "Revelation",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "blast_aoe",
+                3
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Wyrmsfire"
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Angel"
+                    ],
+                    "effective_multiplier": 0.0,
+                    "effective_bonus_damage": -999,
+                    "show_effectiveness_flash": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

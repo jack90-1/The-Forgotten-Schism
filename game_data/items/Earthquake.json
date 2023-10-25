@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Earthquake",
+        "name": "Earthquake",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            5
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                5
+            ],
+            [
+                "enemy_blast_aoe",
+                3
+            ],
+            [
+                "status_on_hit",
+                "Stunned"
+            ],
+            [
+                "event_on_hit",
+                "Global ScreenShake"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "map_cast_sfx",
+                "VillageDestroyed"
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "mana_cost",
+                8
+            ]
+        ]
+    }
+]

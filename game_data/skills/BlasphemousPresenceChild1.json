@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "BlasphemousPresenceChild1",
+        "name": "BlasphemousPresenceChild1",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            5
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

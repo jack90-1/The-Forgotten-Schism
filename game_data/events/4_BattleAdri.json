@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BattleAdri",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == 'Adri' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Adri')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Adri",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adri",
+                    "I won't let you hurt my brother!|This is for Giacamo!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Adri"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "Curse",
+        "name": "Curse",
+        "desc": "Inflicts -20 HIT on target.",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1 (1)",
+        "icon_index": [
+            8,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "weapon_type",
+                "Default"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "status_on_hit",
+                "Cursed"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    141,
+                    141,
+                    141
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "StoneHit"
+            ],
+            [
+                "hit",
+                75
+            ]
+        ]
+    }
+]

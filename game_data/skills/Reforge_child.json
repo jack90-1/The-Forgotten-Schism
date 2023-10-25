@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reforge_child",
+        "name": "Reforged",
+        "desc": "This unit's attacks are brave.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "time",
+                1
+            ],
+            [
+                "all_brave",
+                null
+            ]
+        ]
+    }
+]

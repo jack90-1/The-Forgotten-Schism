@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BattleOmarDefault",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "check_default('Omar', ['Vernados', 'Gonzalo'])",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Omar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "You're standing up to me, huh?|You best believe your boss isn't coming outta here alive.|Still wanna fight, knowing that?{w} It's your choice."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Omar"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

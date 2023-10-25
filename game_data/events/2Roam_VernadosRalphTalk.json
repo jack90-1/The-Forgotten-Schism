@@ -1,0 +1,103 @@
+[
+    {
+        "name": "VernadosRalphTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Ralph'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ralph",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Well, look who the cat dragged in.|How you doin', kid?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "What's up, Ralph. Still pulling guard duty?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Somebody's gotta watch over this dump.|Anyway, what't all this I heard about you bringing in a fat stack|of gold for the boss? Sounds like it was a pretty big job."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "It was just a simple debt collection.|They thought they could fight back, so I let my boys take a little interest."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Ha! \"Taking interest\"?|I remember when the boss first took you in, you were too scared to even punch anybody!|Remember when Gonzalo had to pay you to even spar with Don?|Good times..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "That was a long time ago.|I'm just as much a man as you now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Ho! We getting fiesty now?|I've been itching for a fight. I've been stuck on guard duty since I botched that kidnapping..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Not right now, Ralph.|I've gotta talk to the boss."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "I knew you'd chicken out.|I'll be waiting, kid."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Ralph"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Ralph"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "nid": "Delphine",
+        "name": "Delphine",
+        "desc": "A Malusian noblewoman who was banished for blasphemy.\nAlways believes she is in the right.",
+        "variant": null,
+        "level": 3,
+        "klass": "Master Knight",
+        "tags": [
+            "Horse",
+            "Mounted",
+            "Angel"
+        ],
+        "bases": {
+            "HP": 34,
+            "STR": 11,
+            "ATN": 17,
+            "SKL": 13,
+            "SPD": 16,
+            "BLS": 19,
+            "DEF": 14,
+            "FRT": 14,
+            "CON": 8,
+            "MOV": 7,
+            "SAN": 24
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "ATN": 45,
+            "SKL": 25,
+            "SPD": 35,
+            "BLS": 60,
+            "DEF": 30,
+            "FRT": 50,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Silver Lance",
+                false
+            ],
+            [
+                "ThunderSword",
+                false
+            ],
+            [
+                "PoppySeeds",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Revelation"
+            ],
+            [
+                1,
+                "DivinePresence"
+            ],
+            [
+                1,
+                "Airborne"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                251
+            ],
+            "Lance": [
+                false,
+                121,
+                251
+            ],
+            "Axe": [
+                false,
+                31,
+                251
+            ],
+            "Bow": [
+                false,
+                121,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lenh_4",
+        "affinity": "Shaman",
+        "fields": [
+            [
+                "Nationality",
+                "Malux"
+            ],
+            [
+                "Age",
+                "26"
+            ],
+            [
+                "Height",
+                "5'9\""
+            ],
+            [
+                "Likes",
+                "Debates"
+            ],
+            [
+                "",
+                "Riddles"
+            ],
+            [
+                "Dislikes",
+                "Zealots"
+            ],
+            [
+                "",
+                "Malusians"
+            ]
+        ]
+    }
+]

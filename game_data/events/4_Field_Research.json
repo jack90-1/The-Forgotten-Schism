@@ -1,0 +1,301 @@
+[
+    {
+        "name": "Field Research",
+        "trigger": "on_base_convo",
+        "level_nid": "4",
+        "condition": "unit == 'Field Research'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Astral Observatory- LoZ Majora's Mask"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Tavern 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Claudia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "After seeing them in combat, I know it's true.|This is the real thing!{w} Shamanism IS real!|I need to go deeper, find out more..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Everything ok in here, Clauds?|I heard you muttering about something."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Just some research.{w} Nothing you need to worry about."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Oh, ok.{w} Just wanted to make sure you were safe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Say, Don, before you go, would you mind telling me about your,{w} um,{w} \"transformations?\""
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Transformations?|Oh, you mean the glowy thing me and Vern do?{w} There's not much too it, really.|I eat some poppy seeds, I hear someone talking in my head,{w} and then I can make earthquakes and stuff.{w} Pretty cool, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "You hear a voice in your head?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Yes, this is definitely it!|He's talking to a god!",
+                    "",
+                    "",
+                    "thought_bubble"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Do you think if I ate some seeds I could get powers too?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "I dunno, it doesn't always seems to work.|I gave Marcela some of my seeds and all she did was sleep for a few hours."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "It couldn't hurt to try, though, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "I guess...|Here, eat these."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Here goes nothing...",
+                    "",
+                    "",
+                    "thought_bubble"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Apocalypse1"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Blank",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Blank",
+                    "Hmmm...{w}Someone dares...{w} summon...{w}me...?|Very well...{w} Do what you wish...{w} I've been...{w} bored...{w} all these years...",
+                    "",
+                    "",
+                    "noir"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Blank"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Woah, Clauds, you're gonna burn my eyebrows off!|Try to calm it down!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "...|Sorry."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "That was crazy, Clauds!{w} You almost burnt this place down!|You're one of us now!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "One of you...{w} A shaman..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "A what now?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Don't worry about."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Alright, then.{w} I'll go tell Vern about this.{w} He's gonna love to hear it!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "Thanks, Don."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "This is...{w} incredible!|I can speak to the gods themselves!|They didn't seem very friendly, though...{w} I suppose I'll have to work on it."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Claudia"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_affinity",
+                [
+                    "Claudia (Claudia)",
+                    "Shaman"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Claudia",
+                    "Scourge (Scourge)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Claudia",
+                    "Blasphemous Presence (BlasphemousPresence)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Claudia",
+                    "Blasphemous Presence (BlasphemousPresence2)",
+                    "FLAG(no_banner)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

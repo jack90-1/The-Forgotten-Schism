@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Khat",
+        "name": "Khat",
+        "desc": "Gain +8 STR/SPD for 2 turns, but permanently lose 3 max HP.",
+        "icon_nid": "items",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "value",
+                500
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "HighKhat"
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "HP",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "Poison"
+            ],
+            [
+                "event_on_hit",
+                "Global DopeFiend"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "DeathToro",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Toro'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Toro",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Toro",
+                    "Huh?|They killed me?|Impossible!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Toro"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

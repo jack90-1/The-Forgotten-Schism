@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Berserk",
+        "name": "Berserk",
+        "desc": "Unit's mind has been taken over by a god that attacks indiscriminately.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            4
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "ignore_alliances",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "change_ai",
+                "Charge"
+            ],
+            [
+                "unit_anim",
+                "MapBerserk"
+            ]
+        ]
+    }
+]

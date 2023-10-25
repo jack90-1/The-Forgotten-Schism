@@ -1,0 +1,33 @@
+[
+    {
+        "name": "DeathAdri",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Adri'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Adri",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Adri",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adri",
+                    "I...{w}No..."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

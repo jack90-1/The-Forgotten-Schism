@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'Village1'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Village 3 Daytime"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Verana",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Verana",
+                    "Oh, you seem to be in a hurry."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Verana",
+                    "What?{w} The Delnatians are here already?|{c:expression;Verana;CloseEyes}This complicates my project...|{c:expression;Verana;OpenEyes}Oh well, there's nothing I can do about it.{w} How about I come with you?{w} I know my way around a fight, unfortunately.|The Goddess does work in mysterious ways."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Verana",
+                    "{unit}"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Verana",
+                    "player"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Verana",
+                    "1,8",
+                    "fade",
+                    "closest",
+                    "north"
+                ]
+            ],
+            [
+                "change_party",
+                [
+                    "Verana",
+                    "Vernados' Crew (Vernados)"
+                ]
+            ],
+            [
+                "has_attacked",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

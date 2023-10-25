@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "HP",
+        "name": "HP",
+        "maximum": 60,
+        "desc": "Hit points. A unit dies if their HP reaches 0.",
+        "position": "hidden"
+    },
+    {
+        "nid": "STR",
+        "name": "Str",
+        "maximum": 30,
+        "desc": "Strength. Affects how much damage a unit inflicts when using physical weapons.",
+        "position": "left"
+    },
+    {
+        "nid": "ATN",
+        "name": "Atn",
+        "maximum": 30,
+        "desc": "Attunement. Affects how powerful a unit's shamanic abilities are.",
+        "position": "left"
+    },
+    {
+        "nid": "SKL",
+        "name": "Skill",
+        "maximum": 30,
+        "desc": "Skill. Affects unit's accuracy and hit rate.",
+        "position": "left"
+    },
+    {
+        "nid": "SPD",
+        "name": "Spd",
+        "maximum": 30,
+        "desc": "Speed. Affects a unit's avoid and attack speed.",
+        "position": "left"
+    },
+    {
+        "nid": "BLS",
+        "name": "Bless",
+        "maximum": 30,
+        "desc": "Blessing. How much a unit is favored by the Gods.",
+        "position": "right"
+    },
+    {
+        "nid": "DEF",
+        "name": "Def",
+        "maximum": 30,
+        "desc": "Defense. Reduces damage from physcial weapons.",
+        "position": "left"
+    },
+    {
+        "nid": "FRT",
+        "name": "Frt",
+        "maximum": 30,
+        "desc": "Fortitude. Reduces damage from shamanic attacks.",
+        "position": "left"
+    },
+    {
+        "nid": "CON",
+        "name": "Con",
+        "maximum": 25,
+        "desc": "Constitution. A unit's physical bulk.",
+        "position": "right"
+    },
+    {
+        "nid": "MOV",
+        "name": "Move",
+        "maximum": 15,
+        "desc": "Movement. How many tiles a unit can move in one turn.",
+        "position": "right"
+    },
+    {
+        "nid": "SAN",
+        "name": "SAN",
+        "maximum": 40,
+        "desc": "",
+        "position": "hidden"
+    }
+]

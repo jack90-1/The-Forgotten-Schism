@@ -1,0 +1,96 @@
+[
+    {
+        "name": "VernadosCasimiroTalk",
+        "trigger": "on_talk",
+        "level_nid": "3Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Casimiro'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Casimiro",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Casimiro",
+                    "Vernados, I've been looking for you.|You just came back from out in the eastern foothills, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Oh, hey, Casimiro.|I just got back from a job down there.|Is there something wrong?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Casimiro",
+                    "Melaina is out east with Palmero right now.|Running collections, or something.|They should be back by now.{w} It's been over a week since they left."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I doubt anything bad's happened to them.|I don't think anyone could take either of them in a fight.|They probably just got rained in somewhere.{w} The drought's not as harsh out east."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Casimiro",
+                    "I suppose you're right.|It's just with all the rumors of an invasion flying about, it's hard not to worry."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Even if there is an invasion,{w} I don't think a couple Delnatian hillbillies can take down Melaina and her entire crew."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Casimiro",
+                    "Yeah, of course."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Chin up, Cas.|She'll be back any day now."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Casimiro"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Casimiro"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

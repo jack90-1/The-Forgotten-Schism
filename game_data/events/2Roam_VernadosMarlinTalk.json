@@ -1,0 +1,175 @@
+[
+    {
+        "name": "VernadosMarlinTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Marlin'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Marlin",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "MidRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Maria",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marlin",
+                    "And then I told her, \"If I wanted to get with somebody with a mustache, I would call up my old man!\""
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Ha, that's a classic, Marlin!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "I bet it's not even true.|What woman would willingly talk to Marlin?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Hahaha!{w} That's an even better one, Mar!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marlin",
+                    "You better watch that mouth, girl.|My name used to be feared up and down the shores of Lake Chalcis!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Because they could smell you from a mile away?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marlin",
+                    "Why I oughta..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Calm down, everybody."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Capn'n, you should've heard what Mar just said to Don!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I'm sure it was great.|Now listen up, guys. We've got another job."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Another job? Already?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Yeah, apparently some Kohlers found ancient treasure on our turf."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maria",
+                    "Ancient treasure, on our land!?|How did some Kohl bumpkins find it before we did?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "That doesn't matter. Our job is to make them wish they never found it.|Start getting ready, everybody. We leave as soon as possible."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "We don't even get any time to rest?|Come on, cap'n! We just got back from Frias last night!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "This is a direct order from the boss.|We have to make sure they don't get away."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Okay...{w} There better be some good treasure there!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Don",
+                    "Maria",
+                    "Marlin"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Marlin"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

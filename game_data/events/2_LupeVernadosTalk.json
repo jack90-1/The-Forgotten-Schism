@@ -1,0 +1,94 @@
+[
+    {
+        "name": "LupeVernadosTalk",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Lupe' and unit2.nid == 'Vernados'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Lupe",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "You must be the one causing all this trouble.|Vernados, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Who the hell are you?{w} One of Luis's goons!|I'll have to kill you if you don't get out of my way."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "Woah there, buddy, I'm your friend!|I know how you can get out of here!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I do too, it's pretty simple.{w} Just walk out the door.|I didn't need you to hold me up to tell me that."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "You don't have to be a prick about it.|I just wanted to help you out, that's all."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "If you want to help, then help!|Don't just stand there and chatter like an idiot!|These guys are trying to kill us!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupe",
+                    "He's a charmer.|Maybe I should've thought twice before hitching my wagon to him..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lupe"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Lupe",
+                    "Vernados"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

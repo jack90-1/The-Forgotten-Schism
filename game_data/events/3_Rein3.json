@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Rein3",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 9",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "6,0"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "Rein3",
+                    "north",
+                    "Rein3",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

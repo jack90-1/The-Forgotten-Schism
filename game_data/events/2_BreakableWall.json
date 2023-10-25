@@ -1,0 +1,31 @@
+[
+    {
+        "name": "BreakableWall",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Wall'",
+        "commands": [
+            [
+                "sound",
+                [
+                    "VillageDestroyed"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "13,10"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "BrokenWall"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

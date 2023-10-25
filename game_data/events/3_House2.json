@@ -1,0 +1,87 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'House2'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Inside House 4 Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Villager Woman 2",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Woman 2",
+                    "Oh, are you here to collect this?{w} One of your friends left it behind,{w} a strange fellow with a hood.{w} Don't worry, I didn't read what it said.|I'm not nosy, unlike SOME people."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "{unit}",
+                    "Villager Woman 2"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Surge"
+                ]
+            ],
+            [
+                "has_attacked",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

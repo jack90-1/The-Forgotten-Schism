@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Leave",
+        "trigger": "EndRoam",
+        "level_nid": "3Roam",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{v:Boukris3Talk}== 1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "We should head out.|Don't want to keep the boss waiting."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "EndChapter",
+                    "Head out?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{var:EndChapter}' == 'Yes'"
+                ]
+            ],
+            [
+                "remove_market_item",
+                [
+                    "Dragonshield"
+                ]
+            ],
+            [
+                "remove_market_item",
+                [
+                    "Short Sword (Short Sword)"
+                ]
+            ],
+            [
+                "remove_market_item",
+                [
+                    "Steel Bow"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I can't leave yet, I need to talk to the boss."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

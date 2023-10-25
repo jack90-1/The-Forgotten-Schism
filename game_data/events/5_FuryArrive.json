@@ -1,0 +1,108 @@
+[
+    {
+        "name": "FuryArrive",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount == 2",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "18,10"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Like a Glint of Light- Soul Caliber Legends"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Fury",
+                    "player"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Fury",
+                    "18,10",
+                    "fade",
+                    "closest",
+                    "east"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Fury"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Fury",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Fury",
+                    "Are the Feds finally off my ass?{w} You'd think they have bigger fish to fry than me...|Hmm, what's going on here?{w} Another skirmish?{w} The Feds really are toast."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Blank",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Blank",
+                    "Take that, you leaf eating son of a whore!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Blank"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Fury",
+                    "Hold on, was that Gonzo!?|Why the hell is that old fatty fighting the invaders!?|I should probably go help him..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Fury"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Fury",
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Fury",
+                    "Salvatore"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

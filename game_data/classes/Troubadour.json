@@ -1,0 +1,169 @@
+[
+    {
+        "nid": "Troubadour",
+        "name": "Troubadour",
+        "desc": "Mounted medics that use staves to help allies and swords to defend themselves.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Valkyrie"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 15,
+            "STR": 2,
+            "SKL": 1,
+            "SPD": 3,
+            "DEF": 2,
+            "CON": 5,
+            "MOV": 7,
+            "ATN": 1,
+            "FRT": 5,
+            "BLS": 2,
+            "SAN": 20
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 20,
+            "SKL": 35,
+            "SPD": 55,
+            "DEF": 12,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 25,
+            "FRT": 40,
+            "BLS": 45,
+            "SAN": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15,
+            "ATN": 20,
+            "FRT": 20,
+            "BLS": 30,
+            "SAN": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                true,
+                31,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                31,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Troubadour",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Troubadour",
+        "combat_anim_nid": "Troubadour",
+        "fields": []
+    }
+]

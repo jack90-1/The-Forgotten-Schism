@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "TagTeam",
+        "name": "Tag Team",
+        "desc": "This unit automatically doubles if one of their twins is within 3 spaces.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "len(get_units_within_distance(unit, 3, nid= 'Ausar_1')) + len(get_units_within_distance(unit, 3, nid= 'Ausar_2')) > 0"
+            ],
+            [
+                "all_brave",
+                null
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "name": "BattleBoukrisVernados",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Boukris', 'Vernados')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "You."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "What do you want, Boss?|You're really this scared of my crew?{w} So scared that you sent all your soldiers to kill us in broad daylight?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Silence."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Oh, I see how it is.|Luis tried to kill us first, you know.{w} It was self defense."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "No more.|You die."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Sorry boss.{w} Not gonna happen.|I'll send you to reunite with your boy."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boukris",
+                    "Vernados"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

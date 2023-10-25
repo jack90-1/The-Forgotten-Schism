@@ -1,0 +1,93 @@
+[
+    {
+        "name": "AusarClone",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "any_unit_in_region('ReinNorth', team='player') or any_unit_in_region('ReinSouth', team='player')",
+        "commands": [
+            [
+                "move_cursor",
+                [
+                    "Ausar"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Ausar"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ausar",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ausar",
+                    "Looks like they're in position.|Twin, now is the time to strike!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ausar"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "AusaurTwin",
+                    "south",
+                    "AusaurTwin",
+                    "normal",
+                    "push"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Ausar_1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ausar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ausar",
+                    "Men, take these rebels from behind!|My twin will keep them occupied!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ausar"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Ausar",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

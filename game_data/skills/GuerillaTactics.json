@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "GuerillaTactics",
+        "name": "Guerilla Tactics",
+        "desc": "Unit is guaranteed to double if standing on AVO boosting terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) in ('2', '3', '8', '10', '11', '20', '21', '30', '32', '33', '34', '35', '38', 'Church', 'Tombstone', 'Ruins', 'Arena')"
+            ],
+            [
+                "attack_speed",
+                999
+            ],
+            [
+                "defense_speed",
+                999
+            ]
+        ]
+    }
+]

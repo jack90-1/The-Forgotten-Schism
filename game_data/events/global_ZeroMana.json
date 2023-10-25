@@ -1,0 +1,42 @@
+[
+    {
+        "name": "ZeroMana",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "sound",
+                [
+                    "Berserk"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "{unit}",
+                    "Berserk (Berserk)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.nid == 'Vernados'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "",
+                    "The Shark has taken over Vernados' mind!|He will now attack friend and foe indiscriminately!",
+                    "",
+                    "",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

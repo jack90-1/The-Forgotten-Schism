@@ -1,0 +1,98 @@
+[
+    {
+        "name": "LuisCharge",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 2",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Luis"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Luis"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luis",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luis",
+                    "What?{w} They escaped?|The rumors must be true then...|Looks like I'll have to deal with these rats myself."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luis"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luis",
+                    "2,1"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "ChestNorth"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Luis",
+                    "Shifty Scarf (ShiftyScarf)",
+                    "FLAG(droppable)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luis",
+                    "3,1"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Luis",
+                    "Charge"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "111",
+                    "Charge"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

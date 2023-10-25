@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Church",
+        "name": "Church",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.10000000000000002
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

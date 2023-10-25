@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DeathOmar",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Omar'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Omar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Omar",
+                    "Damn it!|I'm not gonna let a bunch of rats like you kill me!|I've gotta get outta here!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Omar"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "Outro"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

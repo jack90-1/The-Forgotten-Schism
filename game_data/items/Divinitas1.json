@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Divinitas1",
+        "name": "Divinitas1",
+        "desc": "",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1 (1)",
+        "icon_index": [
+            16,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "store_unit",
+                null
+            ]
+        ]
+    }
+]

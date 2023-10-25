@@ -1,0 +1,54 @@
+[
+    {
+        "name": "DeathSporocles",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Sporocles'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Sporocles",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sporocles",
+                    "Nnghhh...{w} Well fought..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sporocles"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "BossCount"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level_vars.get('BossCount') == 3"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "Outro"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

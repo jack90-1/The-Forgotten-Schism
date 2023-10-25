@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "HolyIcon",
+        "name": "Holy Icon",
+        "desc": "Unit's Bless is added to their ATK.",
+        "icon_nid": "items",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "alternate_accuracy_formula",
+                "HOLYICON"
+            ]
+        ]
+    }
+]

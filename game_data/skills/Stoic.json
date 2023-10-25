@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Stoic",
+        "name": "Stoic",
+        "desc": "Unit takes half damage from 2nd hit of double attacks.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist_follow_up",
+                0.5
+            ]
+        ]
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "3Roam",
+        "condition": "True",
+        "commands": [
+            [
+                "chapter_title",
+                []
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Ralph"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Verana"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Boukris"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Casimiro"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "WoodenShield",
+                    "1"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Wind Sword",
+                    "1"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Steel Bow (Steel Bow)",
+                    "1"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Weekly Specials"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Maria')"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Maria"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Maria",
+                    "13,8"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Maria"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

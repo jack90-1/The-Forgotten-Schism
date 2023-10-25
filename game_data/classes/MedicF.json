@@ -1,0 +1,151 @@
+[
+    {
+        "nid": "MedicF",
+        "name": "Medic",
+        "desc": "Traveling doctors who use various \nfolk remedies to heal anyone who needs it.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Medic"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 18,
+            "STR": 3,
+            "ATN": 0,
+            "SKL": 4,
+            "SPD": 6,
+            "BLS": 6,
+            "DEF": 1,
+            "FRT": 4,
+            "CON": 8,
+            "MOV": 5,
+            "SAN": 30
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 45,
+            "ATN": 0,
+            "SKL": 35,
+            "SPD": 55,
+            "BLS": 30,
+            "DEF": 10,
+            "FRT": 25,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "BLS": 0,
+            "DEF": 0,
+            "FRT": 0,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "BLS": 0,
+            "DEF": 0,
+            "FRT": 0,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "ATN": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "BLS": 30,
+            "DEF": 30,
+            "FRT": 30,
+            "CON": 25,
+            "MOV": 15,
+            "SAN": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Supplier (M) Potion {N426}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Supplier (F) Lance {N426}-stand",
+        "combat_anim_nid": "MedicF",
+        "fields": []
+    }
+]

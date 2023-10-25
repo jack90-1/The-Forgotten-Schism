@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "+3 AS",
+        "name": "+3 AS",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "attack_speed",
+                3
+            ]
+        ]
+    }
+]

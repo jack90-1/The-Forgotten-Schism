@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Entangled",
+        "name": "Entangled",
+        "desc": "Unit is tangled in a net and cannot act.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            12
+        ],
+        "components": [
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "has_tags",
+                [
+                    "Entangled"
+                ]
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

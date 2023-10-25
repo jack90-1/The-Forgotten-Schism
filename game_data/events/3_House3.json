@@ -1,0 +1,74 @@
+[
+    {
+        "name": "House3",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'House3'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Inside House 4 Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Woman1",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Woman1",
+                    "You guys are back already?{w} You were just here for collections a week ago!|Ralph told me I wouldn't have to worry about you thugs treating me like this anymore.|Now go on, I'll get your money ready.{w} You don't have to stand around and watch."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "{unit}",
+                    "Woman1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

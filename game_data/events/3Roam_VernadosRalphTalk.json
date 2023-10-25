@@ -1,0 +1,180 @@
+[
+    {
+        "name": "VernadosRalphTalk",
+        "trigger": "on_talk",
+        "level_nid": "3Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Ralph'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Ralph",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Claudia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "...May the Goddess rest their souls."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Amen."
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Map_Step_Infantry1"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Map_Step_Infantry2"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Ralph"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Ralph"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Who's there!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Ralph",
+                    "MidRight"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Claudia",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Damn, Ralph, it's just me!|What's got you so jumpy?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Ahh, if it isn't the brave captain Vernados!|How does it feel to be so succesful at such a young age?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Quit busting my balls, Ralph.|I just wanted to see if anything interesting's happened."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Something interesting?{w} Like what?|Gonzo finally learning how to read?|It's just same old business as usual around here.|How about you, Claudia?{w} Anything crazy happen to you recently?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Claudia",
+                    "If we're done praying, I'll be going back to my studies."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Claudia"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Always with the studying, that girl.|She needs to learn how to have a little fun.|It's like she still hasn't realized she's been expelled from the academy."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Give her a break, Ralph.|As long as she helps you bring in the gold, who cares what she does in her free time?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "You're no fun, either.|Why don't you go help your little girlfriend study, since you care so much?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "If you wanna be left alone, just say it."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ralph",
+                    "Ha!{w} He's still so easy to mess with!|I guess that part of him will never change..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ralph"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

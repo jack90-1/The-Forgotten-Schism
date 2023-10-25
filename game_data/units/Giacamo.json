@@ -1,0 +1,115 @@
+[
+    {
+        "nid": "Giacamo",
+        "name": "Giacamo",
+        "desc": "One of Ralph's soldiers.\nAdri's older brother.",
+        "variant": "",
+        "level": 13,
+        "klass": "Fighter",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 40,
+            "STR": 20,
+            "ATN": 0,
+            "SKL": 7,
+            "SPD": 7,
+            "BLS": 1,
+            "DEF": 2,
+            "FRT": 1,
+            "CON": 18,
+            "MOV": 5,
+            "SAN": 30
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "BLS": 0,
+            "DEF": 0,
+            "FRT": 0,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Battle Axe",
+                false
+            ],
+            [
+                "Hand Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                121,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "CapibaraInSpace F2U OC 6 (1)",
+        "affinity": "Mundane",
+        "fields": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Hurl",
+        "name": "Hurl",
+        "desc": "This unit can counterattack from any distance.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "distant_counter",
+                null
+            ],
+            [
+                "close_counter",
+                null
+            ]
+        ]
+    }
+]

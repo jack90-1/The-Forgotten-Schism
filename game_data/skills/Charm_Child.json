@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Charm_Child",
+        "name": "Charm_Child",
+        "desc": "Grants +15 Hit/Avo.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    }
+]

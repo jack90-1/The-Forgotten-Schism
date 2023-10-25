@@ -1,0 +1,131 @@
+[
+    {
+        "name": "Punishment",
+        "trigger": "on_base_convo",
+        "level_nid": "2Roam",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Tavern 2"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Serra's Theme- Blazing Blade"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Segundo",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "How's the mucking going, Segundo?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Segundo",
+                    "This is inhumane, captain...|I've been here since the crack of dawn, and look!|It's barely any cleaner!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "That just means you have to work harder.|It's good for you.{w} Don't you want to be a captain some day?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Segundo",
+                    "Not if I have to do crap like this all the time..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Well, when you're captain, you won't have to do anything like this!|So get back to work and quit complaining, if you don't want to be mucking stables the rest of your life."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Segundo",
+                    "Fine..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "That's the spirit!|I'll leave you to it then."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Segundo",
+                    "Lazy pig..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Segundo"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "Segundo",
+                    "100"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

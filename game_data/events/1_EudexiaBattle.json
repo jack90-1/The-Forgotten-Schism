@@ -1,0 +1,38 @@
+[
+    {
+        "name": "EudexiaBattle",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "(unit.nid == 'Eudexia' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Eudexia')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Eudexia",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eudexia",
+                    "You little fleas are the only thing keeping me from a more honorable duty!|I'll send you right to hell, where you belong!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Eudexia"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

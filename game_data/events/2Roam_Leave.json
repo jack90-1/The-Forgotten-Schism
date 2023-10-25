@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Leave",
+        "trigger": "EndRoam",
+        "level_nid": "2Roam",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{v:Boukris2Talk}== 1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "We should head out.|Don't want to keep the boss waiting."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "EndChapter",
+                    "Head out?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{var:EndChapter}' == 'Yes'"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I can't leave yet, I need to talk to the boss."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

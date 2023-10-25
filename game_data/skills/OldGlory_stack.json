@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "OldGlory_stack",
+        "name": "Old Glory",
+        "desc": "+2 STR/SPD/DEF per stack.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                5
+            ]
+        ]
+    }
+]

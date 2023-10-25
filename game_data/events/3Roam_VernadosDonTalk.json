@@ -1,0 +1,170 @@
+[
+    {
+        "name": "VernadosDonTalk",
+        "trigger": "on_talk",
+        "level_nid": "3Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Don'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Hey, Vern.{w} Need to take care of somethin'?"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "FRBase2",
+                    "Go to the base menu?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:FRBase2}' == 'Yes'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Yeah, Donny.|Got some business to do."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Have fun then, cap'n."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "base",
+                [
+                    "Tavern 2",
+                    "The Great Court Anteroom- DGS"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "See ya later, Vern!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Nope, just checking in."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Well, thanks, cap'n.|Eveything's goin' fine here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Good, I'll see you later then."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Vernados",
+                    "Don"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Roundtable Hold- Elden Ring"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

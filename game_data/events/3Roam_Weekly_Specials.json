@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Weekly Specials",
+        "trigger": "on_base_convo",
+        "level_nid": "3Roam",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Tavern 2"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Adannaya",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Adannaya!|You're finally back!|How was Malux?{w} Did you get any good deals?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adannaya",
+                    "Hey, Vern.{w} It's good to see ya again!|You're gonna like what I got in stock this week."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Let's see it, then!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Adannaya",
+                    "I don't have the stuff with me right now.|Ya gotta come to the shop.|Quickly, too.{w} I doubt this stuff will be in stock for long!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Alright, then.|I'll head over right away!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Adannaya",
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

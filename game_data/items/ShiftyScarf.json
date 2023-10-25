@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "ShiftyScarf",
+        "name": "Shifty Scarf",
+        "desc": "Unit always attacks first.",
+        "icon_nid": "items",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "status_on_equip",
+                "ShiftyScarf"
+            ]
+        ]
+    }
+]

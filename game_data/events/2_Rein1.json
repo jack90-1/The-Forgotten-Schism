@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Rein1",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 5",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "14,12"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "118",
+                    "14,12",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "0,4"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "119",
+                    "0,4",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

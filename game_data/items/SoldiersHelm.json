@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "SoldiersHelm",
+        "name": "Soldier's Helm",
+        "desc": "+4 DEF/FRT when adjacent to an ally.",
+        "icon_nid": "items",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "status_on_equip",
+                "SoldiersHelm"
+            ]
+        ]
+    }
+]

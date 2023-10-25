@@ -1,0 +1,93 @@
+[
+    {
+        "name": "AlerieLeave",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Alerie"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Alerie"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Alerie",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alerie",
+                    "This situation should be under control.{w} My presence would be more useful elsewhere.|Zephyra!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zephyra",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zephyra",
+                    "Yes, general?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alerie",
+                    "I'm leaving this fight to you.{w} Shouldn't be too hard to clean up.|Report back to me when you're done."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zephyra",
+                    "At once, general!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Zephyra"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alerie",
+                    "There's a good soldier.{w} I'll need to raise up more of her type.{w} Things are only going to get harder from here."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Alerie"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Alerie",
+                    "fade",
+                    "south"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "nid": "Eudexia",
+        "name": "Eudexia",
+        "desc": "A captain in Delnatia's army.\nWishes she had a higher rank.",
+        "variant": null,
+        "level": 7,
+        "klass": "Soldier",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 28,
+            "STR": 9,
+            "SKL": 10,
+            "SPD": 7,
+            "DEF": 6,
+            "CON": 11,
+            "MOV": 5,
+            "ATN": 2,
+            "FRT": 4,
+            "BLS": 7,
+            "SAN": 30
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "ATN": 0,
+            "FRT": 0,
+            "BLS": 0,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Steel Lance",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "WoodenShield",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                121,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Fists": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Knight Red (It's_Just_Jay)",
+        "affinity": "Mundane",
+        "fields": []
+    }
+]

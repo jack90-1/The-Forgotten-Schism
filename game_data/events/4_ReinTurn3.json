@@ -1,0 +1,28 @@
+[
+    {
+        "name": "ReinTurn3",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "Turn3",
+                    "south",
+                    "Turn3",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

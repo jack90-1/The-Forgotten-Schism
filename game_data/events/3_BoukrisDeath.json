@@ -1,0 +1,346 @@
+[
+    {
+        "name": "BoukrisDeath",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.nid == 'Boukris'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Boukris",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "You actually did it, you rats...|Shameful..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Boukris"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Merriment- Triangle Strategy"
+                ]
+            ],
+            [
+                "victory_screen",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "_Wind Ambience 1"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Mountainside 2"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "MidRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Don",
+                    "FarRight"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Attack Hit 1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Take that, you fleabag!{w}{c:bop_portait;Don}{c:sound;Attack Hit 1} Don't mess with us ever again!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Stop it, Don.{w} He's already dead."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Huh?{w} ...Oh."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "You boys did good today.|Most men would've folded if they saw Boukris coming at them like that."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Well, we're not like most men anymore.|You saw what me and Don were doing?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Yeah, I did.{w} Can't say I expected the rumors to be true.|All that matters to me, though, is that you boys are safe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Thanks, Gonzo.|It's nice to have someone not trying to kill us over this."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Yeah..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Gonzalo",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Anyways, boys, you just used your powers to kill the boss.|You know what that means, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I'm the new boss now?"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "9th Heaven- Grim Fandango"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Yep, you're now the kingpin of southern Sarenas.|How's it feel?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "That can't be right.{w} Why aren't you taking it for yourself?|And what about Ralph?{w} He's still out there somewhere, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Ralph ran away with piss down his leg when he saw you start glowing.|As for me, I've never been cut out for that kind of power.|It's yours, boy, if you want to take it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I don't know...{w} It seems like everyone is already out for my head...|I don't think I need another target on my back."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Oh, shut up, Vern.{w} Think of all the money we'll make!{w} And the manor, too!|We'd be living like kings!"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Vernados",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Vernados",
+                    "OpenEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Fine, then.{w} I'll take it.|I'll be the new boss."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "There's my boy!|I always knew you had this potential!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "If you're the boss, and Luis and Ralph are out of the picture,{w} that means I'm a capo now, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "I suppose it does, Donny.|Now come on, let's get to the manor.|We've got a lot of work to do."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Don",
+                    "Hey, Gonzo, I'll race you there!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "You're on, kid!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Don",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Don"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Gonzalo",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "The boss...|Guess I had no choice..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vernados"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

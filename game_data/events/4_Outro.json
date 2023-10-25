@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 8",
+        "commands": [
+            [
+                "music",
+                [
+                    "Merriment- Triangle Strategy"
+                ]
+            ],
+            [
+                "victory_screen",
+                []
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

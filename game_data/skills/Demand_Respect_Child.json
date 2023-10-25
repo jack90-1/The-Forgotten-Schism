@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Demand_Respect_Child",
+        "name": "Intimidated",
+        "desc": "Grants +15 Hit/Avo.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                15
+            ]
+        ]
+    }
+]

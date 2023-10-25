@@ -1,0 +1,73 @@
+[
+    {
+        "nid": "4P",
+        "name": "Chapter 4: Operations",
+        "tilemap": "New Tilemap (8)",
+        "bg_tilemap": null,
+        "party": "Vernados",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": false,
+        "units": [
+            {
+                "nid": "Vernados",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gonzalo",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Don",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [
+            {
+                "nid": "vern",
+                "units": [
+                    "Vernados",
+                    "Gonzalo",
+                    "Don"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    }
+]

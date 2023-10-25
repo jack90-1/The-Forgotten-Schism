@@ -1,0 +1,52 @@
+[
+    {
+        "name": "TiberiaCharge",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == '102'",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Tiberia"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Tiberia"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Tiberia",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tiberia",
+                    "Enough of this waiting.|I'm taking the fight to them."
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Tiberia",
+                    "Charge"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "111",
+                    "Charge"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

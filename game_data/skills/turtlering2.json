@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "turtlering2",
+        "name": "Turtle Ring",
+        "desc": "Unit has +5 DEF and cannot double or be doubled.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            5,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "defense_speed",
+                999
+            ],
+            [
+                "attack_speed",
+                999
+            ]
+        ]
+    }
+]

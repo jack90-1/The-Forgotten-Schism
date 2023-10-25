@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "whalering2",
+        "name": "Whale Ring",
+        "desc": "Unit always doubles and always gets doubled.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "all_brave",
+                null
+            ],
+            [
+                "attack_speed",
+                -999
+            ],
+            [
+                "defense_speed",
+                -999
+            ]
+        ]
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "name": "VernadosGonzaloTalk",
+        "trigger": "on_talk",
+        "level_nid": "2Roam",
+        "condition": "unit.nid == 'Vernados' and unit2.nid == 'Gonzalo'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vernados",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gonzalo",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Hey! Gonzo!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Vern! It's good to see you again!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "You too, buddy. I missed you the last time I was here.|How'd that job up at the lakeshore go?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Oh, you know how it is.|The merchant didn't want to pay us back, so we cracked a couple heads. Pretty boring."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "That's too bad. You got a good haul, though, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Yeah! You wouldn't believe some of the stuff this guy had in his house.|There was this one thing, a pot, that would whistle if you heated it up!|Crazy, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "...{w} A teapot?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Huh? What's that?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Never mind..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Umm... ok?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vernados",
+                    "Never change, Gonzo."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gonzalo",
+                    "Not plannin' on it!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vernados",
+                    "Gonzalo"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Vernados",
+                    "Gonzalo"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "WarBallad",
+        "name": "War Ballad",
+        "desc": "+3 STR for 1 turn.",
+        "icon_nid": "songs (1)",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "time",
+                1
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

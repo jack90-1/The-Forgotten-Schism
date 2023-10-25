@@ -1,0 +1,81 @@
+[
+    {
+        "name": "BattleBoukrisMarcela",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Boukris', 'Marcela')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Boss Battle- Lufia 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boukris",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Marcela",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "I expected more from you, Marcela.|I really thought you had potential."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Shove it up your ass, Boukris.{w} I don't care!|I fight for Vern, and that's that!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "See, that's exactly what I mean.{w} You're one of the most loyal soldiers I've ever seen.{w} I'll have a spot open for you, if you ever decide you want more out of life."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "Fat chance, slimeball.|I'd rather work for the Prime than work for you!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boukris",
+                    "Fine, then.{w} If you want to die on this hill, then die."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Marcela",
+                    "You're the one that's dying today, asshole!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boukris",
+                    "Marcela"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

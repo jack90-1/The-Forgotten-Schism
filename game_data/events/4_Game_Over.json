@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Game Over",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.level_vars.get('CratesDestroyed4') == 5"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "The Loser- FF VIII"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

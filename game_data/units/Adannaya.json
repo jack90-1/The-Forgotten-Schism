@@ -1,0 +1,198 @@
+[
+    {
+        "nid": "Adannaya",
+        "name": "Adannaya",
+        "desc": "A veteran shaman whose hearty laugh fills the room.\nShe moonlights as a blacksmith.",
+        "variant": null,
+        "level": 4,
+        "klass": "WarriorAd",
+        "tags": [],
+        "bases": {
+            "HP": 43,
+            "STR": 17,
+            "ATN": 13,
+            "SKL": 10,
+            "SPD": 10,
+            "BLS": 10,
+            "DEF": 9,
+            "FRT": 6,
+            "CON": 14,
+            "MOV": 6,
+            "SAN": 25
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "ATN": 45,
+            "SKL": 30,
+            "SPD": 30,
+            "BLS": 25,
+            "DEF": 20,
+            "FRT": 20,
+            "CON": 0,
+            "MOV": 0,
+            "SAN": 0
+        },
+        "stat_cap_modifiers": {
+            "FRT": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "BLS": 0,
+            "MOV": 0,
+            "CON": 0,
+            "SAN": 0,
+            "HP": 0,
+            "STR": 0,
+            "ATN": 0,
+            "SKL": 0
+        },
+        "starting_items": [
+            [
+                "Battle Axe",
+                false
+            ],
+            [
+                "Short Bow",
+                false
+            ],
+            [
+                "Iron Knuckles",
+                false
+            ],
+            [
+                "Spear",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Armsmaster"
+            ],
+            [
+                1,
+                "Reforge"
+            ],
+            [
+                1,
+                "RipThrough"
+            ],
+            [
+                1,
+                "ArmsmasterSword"
+            ],
+            [
+                1,
+                "ArmsmasterLance"
+            ],
+            [
+                1,
+                "ArmsmasterAxe"
+            ],
+            [
+                1,
+                "ArmsmasterBow"
+            ],
+            [
+                1,
+                "ArmsmasterFists"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                251
+            ],
+            "Lance": [
+                false,
+                181,
+                251
+            ],
+            "Axe": [
+                false,
+                181,
+                251
+            ],
+            "Bow": [
+                false,
+                181,
+                251
+            ],
+            "Fists": [
+                false,
+                181,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Holy": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Arcane": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Music": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Pirate_1",
+        "affinity": "Shaman",
+        "fields": [
+            [
+                "Nationality",
+                "Ngalabachi"
+            ],
+            [
+                "Age",
+                "41"
+            ],
+            [
+                "Height",
+                "6'2\""
+            ],
+            [
+                "Likes",
+                "Weapons"
+            ],
+            [
+                "",
+                "Partying"
+            ],
+            [
+                "Dislikes",
+                "Negativity"
+            ],
+            [
+                "",
+                "Disrespectful People"
+            ]
+        ]
+    }
+]

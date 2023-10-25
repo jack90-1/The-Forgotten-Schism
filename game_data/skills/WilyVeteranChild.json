@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "WilyVeteranChild",
+        "name": "Opening Spotted",
+        "desc": "+4 STR for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

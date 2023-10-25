@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "IgnoreDef",
+        "name": "IgnoreDef",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "unit2.get_stat('DEF')"
+            ]
+        ]
+    }
+]

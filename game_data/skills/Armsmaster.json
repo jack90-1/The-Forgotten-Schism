@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Armsmaster",
+        "name": "Armsmaster",
+        "desc": "This unit is capable of using all physical weapon types, and receives a stat boost depending on the type equipped.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            11,
+            16
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]
